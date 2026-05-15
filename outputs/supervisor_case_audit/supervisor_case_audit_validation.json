@@ -1,0 +1,10 @@
+{
+  "source_rows": 60,
+  "submission_rows": 60,
+  "public_supplement_rows": 60,
+  "dropped_full_text_columns": [
+    "long_answer",
+    "abstract_context"
+  ],
+  "reviewer_id": "supervisor_informed_standardized_20260507"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "agent_aux_a20f5b7",
+  "group": "agent",
+  "source_commit": "a20f5b7",
+  "description": "Agent #002 delayed weak class-balanced answer-label auxiliary objective on the random phase2 primary-best backbone.",
+  "hyperparameters": {
+    "ASPECT_RATIO": 64,
+    "HEAD_DIM": 128,
+    "WINDOW_PATTERN": "L",
+    "TOTAL_BATCH_SIZE": 65536,
+    "EMBEDDING_LR": 0.65,
+    "UNEMBEDDING_LR": 0.002,
+    "MATRIX_LR": 0.045,
+    "SCALAR_LR": 0.5,
+    "WEIGHT_DECAY": 0.15,
+    "WARMUP_RATIO": 0.12,
+    "WARMDOWN_RATIO": 0.45,
+    "FINAL_LR_FRAC": 0.0,
+    "DEPTH": 5,
+    "DEVICE_BATCH_SIZE": 16,
+    "QA_AUX_WEIGHT": 0.05,
+    "QA_AUX_BATCH_SIZE": 4,
+    "QA_AUX_START_PROGRESS": 0.5
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "random_macro_f1_best_8a1209b",
+  "group": "random",
+  "source_commit": "8a1209b",
+  "description": "Random-search validation macro-F1 best configuration from the initial random sweep.",
+  "hyperparameters": {
+    "ASPECT_RATIO": 64,
+    "HEAD_DIM": 128,
+    "WINDOW_PATTERN": "L",
+    "TOTAL_BATCH_SIZE": 32768,
+    "EMBEDDING_LR": 0.6,
+    "UNEMBEDDING_LR": 0.006,
+    "MATRIX_LR": 0.04,
+    "SCALAR_LR": 0.5,
+    "WEIGHT_DECAY": 0.2,
+    "WARMUP_RATIO": 0.1,
+    "WARMDOWN_RATIO": 0.5,
+    "FINAL_LR_FRAC": 0.1,
+    "DEPTH": 5,
+    "DEVICE_BATCH_SIZE": 16,
+    "QA_AUX_WEIGHT": 0.0,
+    "QA_AUX_BATCH_SIZE": 4,
+    "QA_AUX_START_PROGRESS": 0.5
+  }
+}

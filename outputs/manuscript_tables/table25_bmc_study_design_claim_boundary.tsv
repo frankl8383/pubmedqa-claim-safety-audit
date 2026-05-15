@@ -1,0 +1,7 @@
+audit_domain	status	evidence	claim_boundary
+Primary dataset	Locked validation-first audit	PubMedQA PQA-L split: 700 train, 150 validation, 150 test; main claims use validation.	Non-clinical benchmark case study, not clinical decision support.
+Test split	Opened before current audit	Test-freeze notice restricts later use to post-freeze audit artifacts.	No blind held-out confirmation claim.
+Autonomous search	Retrospective configuration audit	Agent phase followed manual/random exploration and changed objective space.	No agent-vs-random algorithm-superiority claim.
+Repeated seeds	Complete for retained configurations	Manual, random, and agent-derived configurations evaluated on validation seeds 42-46.	Single-run wins are hypothesis-generating only.
+Case audit	Supervisor-informed illustrative audit	60 purposively sampled validation cases, standardized after supervisor-informed review.	Not independent expert consensus or PubMedQA relabeling.
+External reference	SciFact stress test	Majority, TF-IDF, and frozen BiomedBERT reference baselines.	Not external validation of the PubMedQA autoresearch small LM.

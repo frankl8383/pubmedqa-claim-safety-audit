@@ -1,0 +1,97 @@
+comparison	right	right_display	metric	diff_left_minus_right	ci_low	ci_high	p_two_sided_sign	n_examples	n_bootstrap
+Agent auxiliary - Manual baseline	manual_baseline_f1664dd	Manual baseline	accuracy	-0.0093333333333334	-0.0546666666666667	0.036	0.718	150	10000
+Agent auxiliary - Manual baseline	manual_baseline_f1664dd	Manual baseline	macro_f1	0.0185992378514426	-0.0186783341463334	0.0563044599416862	0.329	150	10000
+Agent auxiliary - Manual baseline	manual_baseline_f1664dd	Manual baseline	brier	0.017583918137199	-0.0266504919188599	0.0617484621994102	0.4344	150	10000
+Agent auxiliary - Manual baseline	manual_baseline_f1664dd	Manual baseline	f1_yes	-0.0289224942236319	-0.0709613530800456	0.0120833002024109	0.1678	150	10000
+Agent auxiliary - Manual baseline	manual_baseline_f1664dd	Manual baseline	f1_no	0.0880535411112934	0.0114994375811744	0.1624971958483277	0.0256	150	10000
+Agent auxiliary - Manual baseline	manual_baseline_f1664dd	Manual baseline	f1_maybe	-0.0033333333333333	-0.0521739130434782	0.0428571428571428	1.0	150	10000
+Agent auxiliary - Manual baseline	manual_baseline_f1664dd	Manual baseline	precision_yes	0.0152466736945975	-0.0198869196658426	0.0504911185367775	0.3862	150	10000
+Agent auxiliary - Manual baseline	manual_baseline_f1664dd	Manual baseline	recall_yes	-0.0939759036144578	-0.1542185886402753	-0.0333333333333333	0.0032	150	10000
+Agent auxiliary - Manual baseline	manual_baseline_f1664dd	Manual baseline	precision_no	0.0358332860397462	-0.0535928162720883	0.1257705867541765	0.4208	150	10000
+Agent auxiliary - Manual baseline	manual_baseline_f1664dd	Manual baseline	recall_no	0.1254901960784314	0.0472727272727273	0.2040816326530612	0.0022	150	10000
+Agent auxiliary - Manual baseline	manual_baseline_f1664dd	Manual baseline	precision_maybe	-0.025	-0.15	0.0666666666666666	0.899	150	10000
+Agent auxiliary - Manual baseline	manual_baseline_f1664dd	Manual baseline	recall_maybe	0.0	-0.0363636363636363	0.0363636363636363	1.0	150	10000
+Agent auxiliary - Manual warmup	manual_warmup10_da0044c	Manual warmup	accuracy	-0.0173333333333333	-0.064	0.0293333333333332	0.495	150	10000
+Agent auxiliary - Manual warmup	manual_warmup10_da0044c	Manual warmup	macro_f1	0.0192282340139063	-0.0182289134400127	0.0564321564643264	0.3166	150	10000
+Agent auxiliary - Manual warmup	manual_warmup10_da0044c	Manual warmup	brier	0.0122483934354176	-0.0320835975411867	0.0569652916748294	0.6018	150	10000
+Agent auxiliary - Manual warmup	manual_warmup10_da0044c	Manual warmup	f1_yes	-0.0406742248591355	-0.0842093290566018	0.0014194344982185	0.0578	150	10000
+Agent auxiliary - Manual warmup	manual_warmup10_da0044c	Manual warmup	f1_no	0.0816922602341879	0.0029390740428877	0.1619193540523966	0.0432	150	10000
+Agent auxiliary - Manual warmup	manual_warmup10_da0044c	Manual warmup	f1_maybe	0.0166666666666666	0.0	0.05	0.7214	150	10000
+Agent auxiliary - Manual warmup	manual_warmup10_da0044c	Manual warmup	precision_yes	-0.0005870069940041	-0.0375666861968331	0.0368571906194411	0.9832	150	10000
+Agent auxiliary - Manual warmup	manual_warmup10_da0044c	Manual warmup	recall_yes	-0.0987951807228916	-0.1614457831325301	-0.0378378378378377	0.0024	150	10000
+Agent auxiliary - Manual warmup	manual_warmup10_da0044c	Manual warmup	precision_no	0.0546698169298415	-0.0334192684136447	0.1425788464777567	0.2176	150	10000
+Agent auxiliary - Manual warmup	manual_warmup10_da0044c	Manual warmup	recall_no	0.1058823529411764	0.0218132678132677	0.1914893617021276	0.0172	150	10000
+Agent auxiliary - Manual warmup	manual_warmup10_da0044c	Manual warmup	precision_maybe	0.025	0.0	0.08	0.7214	150	10000
+Agent auxiliary - Manual warmup	manual_warmup10_da0044c	Manual warmup	recall_maybe	0.0125	0.0	0.04	0.7214	150	10000
+Agent auxiliary - Random accuracy best	random_accuracy_best_7e73835	Random accuracy best	accuracy	-0.0506666666666666	-0.1106666666666666	0.0106666666666666	0.1068	150	10000
+Agent auxiliary - Random accuracy best	random_accuracy_best_7e73835	Random accuracy best	macro_f1	0.0808439686096011	0.0444880372609441	0.1148375327588307	0.0002	150	10000
+Agent auxiliary - Random accuracy best	random_accuracy_best_7e73835	Random accuracy best	brier	0.0809347819971095	0.0435550747965083	0.1197470725411904	0.0	150	10000
+Agent auxiliary - Random accuracy best	random_accuracy_best_7e73835	Random accuracy best	f1_yes	-0.0885495699343169	-0.1335198601266021	-0.0450172308930539	0.0004	150	10000
+Agent auxiliary - Random accuracy best	random_accuracy_best_7e73835	Random accuracy best	f1_no	0.3144148090964538	0.238933153838958	0.380394705849476	0.0	150	10000
+Agent auxiliary - Random accuracy best	random_accuracy_best_7e73835	Random accuracy best	f1_maybe	0.0166666666666666	0.0	0.05	0.7214	150	10000
+Agent auxiliary - Random accuracy best	random_accuracy_best_7e73835	Random accuracy best	precision_yes	0.0144024538387169	-0.019582454705604	0.0480139188760133	0.4016	150	10000
+Agent auxiliary - Random accuracy best	random_accuracy_best_7e73835	Random accuracy best	recall_yes	-0.2891566265060241	-0.3493670886075948	-0.2300000000000001	0.0	150	10000
+Agent auxiliary - Random accuracy best	random_accuracy_best_7e73835	Random accuracy best	precision_no	0.2501129344659824	0.1290770134632932	0.3699297226854356	0.0	150	10000
+Agent auxiliary - Random accuracy best	random_accuracy_best_7e73835	Random accuracy best	recall_no	0.3176470588235294	0.2452759433962264	0.3866666666666666	0.0	150	10000
+Agent auxiliary - Random accuracy best	random_accuracy_best_7e73835	Random accuracy best	precision_maybe	0.025	0.0	0.08	0.7214	150	10000
+Agent auxiliary - Random accuracy best	random_accuracy_best_7e73835	Random accuracy best	recall_maybe	0.0125	0.0	0.04	0.7214	150	10000
+Agent auxiliary - Random Brier best	random_brier_best_8dc23be	Random Brier best	accuracy	-0.0586666666666666	-0.1119999999999999	-0.0053333333333332	0.0338	150	10000
+Agent auxiliary - Random Brier best	random_brier_best_8dc23be	Random Brier best	macro_f1	0.0437321651467455	0.0080995253247886	0.0772220739093029	0.0174	150	10000
+Agent auxiliary - Random Brier best	random_brier_best_8dc23be	Random Brier best	brier	0.0847167398110286	0.0476873185580926	0.1226883164419848	0.0	150	10000
+Agent auxiliary - Random Brier best	random_brier_best_8dc23be	Random Brier best	f1_yes	-0.0884252764939681	-0.1305937033235855	-0.0485441849825085	0.0	150	10000
+Agent auxiliary - Random Brier best	random_brier_best_8dc23be	Random Brier best	f1_no	0.2029551052675381	0.1273075790499196	0.27155490152974	0.0	150	10000
+Agent auxiliary - Random Brier best	random_brier_best_8dc23be	Random Brier best	f1_maybe	0.0166666666666666	0.0	0.05	0.7214	150	10000
+Agent auxiliary - Random Brier best	random_brier_best_8dc23be	Random Brier best	precision_yes	0.004646701135188	-0.0281896615733654	0.0365680758574632	0.7686	150	10000
+Agent auxiliary - Random Brier best	random_brier_best_8dc23be	Random Brier best	recall_yes	-0.2602409638554217	-0.3159090909090908	-0.2049382716049382	0.0	150	10000
+Agent auxiliary - Random Brier best	random_brier_best_8dc23be	Random Brier best	precision_no	-0.1825793732263252	-0.2937627091924181	0.1043817319982705	0.4296	150	10000
+Agent auxiliary - Random Brier best	random_brier_best_8dc23be	Random Brier best	recall_no	0.2470588235294117	0.1782608695652174	0.3136385918003565	0.0	150	10000
+Agent auxiliary - Random Brier best	random_brier_best_8dc23be	Random Brier best	precision_maybe	0.025	0.0	0.08	0.7214	150	10000
+Agent auxiliary - Random Brier best	random_brier_best_8dc23be	Random Brier best	recall_maybe	0.0125	0.0	0.04	0.7214	150	10000
+Agent auxiliary - Random macro-F1 best	random_macro_f1_best_8a1209b	Random macro-F1 best	accuracy	-0.0293333333333334	-0.0786666666666666	0.0186666666666667	0.2448	150	10000
+Agent auxiliary - Random macro-F1 best	random_macro_f1_best_8a1209b	Random macro-F1 best	macro_f1	0.0178543838009055	-0.0206843903097844	0.0549275647780045	0.3488	150	10000
+Agent auxiliary - Random macro-F1 best	random_macro_f1_best_8a1209b	Random macro-F1 best	brier	0.0304374300315852	-0.0129295719992193	0.0745880964899463	0.1722	150	10000
+Agent auxiliary - Random macro-F1 best	random_macro_f1_best_8a1209b	Random macro-F1 best	f1_yes	-0.0529835004123117	-0.0959395694155036	-0.0108895054209794	0.0146	150	10000
+Agent auxiliary - Random macro-F1 best	random_macro_f1_best_8a1209b	Random macro-F1 best	f1_no	0.0898799851483617	0.0083925172023895	0.1693014230820635	0.0304	150	10000
+Agent auxiliary - Random macro-F1 best	random_macro_f1_best_8a1209b	Random macro-F1 best	f1_maybe	0.0166666666666666	0.0	0.05	0.7214	150	10000
+Agent auxiliary - Random macro-F1 best	random_macro_f1_best_8a1209b	Random macro-F1 best	precision_yes	0.0030952921386779	-0.0301295403247166	0.0353767805024409	0.8374	150	10000
+Agent auxiliary - Random macro-F1 best	random_macro_f1_best_8a1209b	Random macro-F1 best	recall_yes	-0.1397590361445781	-0.2048207464002351	-0.0756740276862228	0.0	150	10000
+Agent auxiliary - Random macro-F1 best	random_macro_f1_best_8a1209b	Random macro-F1 best	precision_no	-0.0007749769057999	-0.1004325073957141	0.1002823122351517	0.9962	150	10000
+Agent auxiliary - Random macro-F1 best	random_macro_f1_best_8a1209b	Random macro-F1 best	recall_no	0.1372549019607843	0.0590115718418515	0.2146386630532971	0.0004	150	10000
+Agent auxiliary - Random macro-F1 best	random_macro_f1_best_8a1209b	Random macro-F1 best	precision_maybe	0.025	0.0	0.08	0.7214	150	10000
+Agent auxiliary - Random macro-F1 best	random_macro_f1_best_8a1209b	Random macro-F1 best	recall_maybe	0.0125	0.0	0.04	0.7214	150	10000
+Agent auxiliary - Random primary	random_primary_best_7147e14	Random primary	accuracy	-0.0586666666666666	-0.1186666666666665	0.0013333333333333	0.0594	150	10000
+Agent auxiliary - Random primary	random_primary_best_7147e14	Random primary	macro_f1	0.0718030997660233	0.0315696441890098	0.1090118194306356	0.0008	150	10000
+Agent auxiliary - Random primary	random_primary_best_7147e14	Random primary	brier	0.0880694785240645	0.0488327308390303	0.1286488805440473	0.0	150	10000
+Agent auxiliary - Random primary	random_primary_best_7147e14	Random primary	f1_yes	-0.0938028153403404	-0.1369347526104554	-0.0526456944185354	0.0002	150	10000
+Agent auxiliary - Random primary	random_primary_best_7147e14	Random primary	f1_no	0.292545447971744	0.2025337794215715	0.3716481686663184	0.0	150	10000
+Agent auxiliary - Random primary	random_primary_best_7147e14	Random primary	f1_maybe	0.0166666666666666	0.0	0.05	0.7214	150	10000
+Agent auxiliary - Random primary	random_primary_best_7147e14	Random primary	precision_yes	0.0102989466083923	-0.0236721798924984	0.0437543946180357	0.5494	150	10000
+Agent auxiliary - Random primary	random_primary_best_7147e14	Random primary	recall_yes	-0.2963855421686746	-0.3511627906976744	-0.2430334538878842	0.0	150	10000
+Agent auxiliary - Random primary	random_primary_best_7147e14	Random primary	precision_no	0.0851129344659823	-0.0943188892442218	0.2604856594124446	0.3316	150	10000
+Agent auxiliary - Random primary	random_primary_best_7147e14	Random primary	recall_no	0.3058823529411765	0.225	0.3836734693877551	0.0	150	10000
+Agent auxiliary - Random primary	random_primary_best_7147e14	Random primary	precision_maybe	0.025	0.0	0.08	0.7214	150	10000
+Agent auxiliary - Random primary	random_primary_best_7147e14	Random primary	recall_maybe	0.0125	0.0	0.04	0.7214	150	10000
+Agent auxiliary - TF-IDF LR	tfidf_lr_selected	TF-IDF LR	accuracy	-0.0106666666666667	-0.0866666666666666	0.0639999999999999	0.795	150	10000
+Agent auxiliary - TF-IDF LR	tfidf_lr_selected	TF-IDF LR	macro_f1	-0.0480870524140374	-0.1404059783330736	0.0304988832531338	0.283	150	10000
+Agent auxiliary - TF-IDF LR	tfidf_lr_selected	TF-IDF LR	brier	-0.0121747921154029	-0.0731164656949698	0.0493844813201693	0.679	150	10000
+Agent auxiliary - TF-IDF LR	tfidf_lr_selected	TF-IDF LR	f1_yes	0.0039959562530709	-0.0678159333416172	0.0793297068733692	0.9264	150	10000
+Agent auxiliary - TF-IDF LR	tfidf_lr_selected	TF-IDF LR	f1_no	-0.0596606222671131	-0.1709014473765644	0.0516532314533643	0.2864	150	10000
+Agent auxiliary - TF-IDF LR	tfidf_lr_selected	TF-IDF LR	f1_maybe	-0.0885964912280701	-0.3057142857142857	0.0421052631578947	0.7366	150	10000
+Agent auxiliary - TF-IDF LR	tfidf_lr_selected	TF-IDF LR	precision_yes	-0.0314007953573595	-0.0988576595822054	0.0328484913850638	0.3516	150	10000
+Agent auxiliary - TF-IDF LR	tfidf_lr_selected	TF-IDF LR	recall_yes	0.0578313253012048	-0.0399999999999999	0.1591009781357882	0.2614	150	10000
+Agent auxiliary - TF-IDF LR	tfidf_lr_selected	TF-IDF LR	precision_no	0.0084462677993156	-0.1005399741265036	0.1130703904173524	0.8608	150	10000
+Agent auxiliary - TF-IDF LR	tfidf_lr_selected	TF-IDF LR	recall_no	-0.1098039215686274	-0.2461627906976744	0.0269279661016949	0.1212	150	10000
+Agent auxiliary - TF-IDF LR	tfidf_lr_selected	TF-IDF LR	precision_maybe	-0.3083333333333333	-1.0	0.0666666666666666	0.7366	150	10000
+Agent auxiliary - TF-IDF LR	tfidf_lr_selected	TF-IDF LR	recall_maybe	-0.05	-0.2	0.0333333333333333	0.7384	150	10000
+Agent auxiliary - Frozen BiomedBERT	frozen_biomedbert	Frozen BiomedBERT	accuracy	-0.0306666666666666	-0.1106666666666667	0.0506666666666666	0.4656	150	10000
+Agent auxiliary - Frozen BiomedBERT	frozen_biomedbert	Frozen BiomedBERT	macro_f1	-0.1074687834675952	-0.1938415751435396	-0.0234769725020948	0.0106	150	10000
+Agent auxiliary - Frozen BiomedBERT	frozen_biomedbert	Frozen BiomedBERT	brier	-0.1568129670494932	-0.2827030918299251	-0.0319183994492165	0.0116	150	10000
+Agent auxiliary - Frozen BiomedBERT	frozen_biomedbert	Frozen BiomedBERT	f1_yes	0.0183580647328264	-0.0649727685220962	0.1073543749832132	0.6812	150	10000
+Agent auxiliary - Frozen BiomedBERT	frozen_biomedbert	Frozen BiomedBERT	f1_no	-0.1809604935669845	-0.2883234296488816	-0.0755781238627239	0.0008	150	10000
+Agent auxiliary - Frozen BiomedBERT	frozen_biomedbert	Frozen BiomedBERT	f1_maybe	-0.1598039215686274	-0.3346153846153846	0.0181818181818181	0.0954	150	10000
+Agent auxiliary - Frozen BiomedBERT	frozen_biomedbert	Frozen BiomedBERT	precision_yes	-0.0815869698757341	-0.1689607253551272	0.0036189340819712	0.0594	150	10000
+Agent auxiliary - Frozen BiomedBERT	frozen_biomedbert	Frozen BiomedBERT	recall_yes	0.1301204819277108	0.0265060240963854	0.2352978406552494	0.0144	150	10000
+Agent auxiliary - Frozen BiomedBERT	frozen_biomedbert	Frozen BiomedBERT	precision_no	-0.1000236775558755	-0.2082882787931392	0.0008061259319863	0.052	150	10000
+Agent auxiliary - Frozen BiomedBERT	frozen_biomedbert	Frozen BiomedBERT	recall_no	-0.2470588235294117	-0.382612443778111	-0.1152478813559323	0.0	150	10000
+Agent auxiliary - Frozen BiomedBERT	frozen_biomedbert	Frozen BiomedBERT	precision_maybe	-0.1416666666666666	-0.3333333333333333	0.025	0.1248	150	10000
+Agent auxiliary - Frozen BiomedBERT	frozen_biomedbert	Frozen BiomedBERT	recall_maybe	-0.175	-0.388235294117647	0.0142857142857142	0.0944	150	10000

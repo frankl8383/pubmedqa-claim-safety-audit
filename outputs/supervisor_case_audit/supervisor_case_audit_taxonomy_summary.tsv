@@ -1,0 +1,7 @@
+agent_effect_category	n_cases
+maybe_unresolved	15
+corrected_yes_collapse	13
+overcorrected_yes	12
+both_wrong_or_ambiguous	10
+no_meaningful_change	8
+increased_instability	2

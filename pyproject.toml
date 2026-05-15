@@ -1,0 +1,20 @@
+[project]
+name = "autoresearch"
+version = "0.1.0"
+description = "Claim-safety audit package for low-resource biomedical NLP experimentation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "matplotlib>=3.10.8",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+    "pyarrow>=21.0.0",
+    "requests>=2.32.0",
+    "rustbpe>=0.1.0",
+    "safetensors>=0.7.0",
+    "scikit-learn>=1.7.2",
+    "tiktoken>=0.11.0",
+    "torch==2.6.0",
+    "transformers>=4.51.0",
+]

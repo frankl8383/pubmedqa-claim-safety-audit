@@ -1,0 +1,13 @@
+guardrail_id	status	evidence_file	manuscript_role
+G01_locked_data_eval	complete	prepare_biomed.py; eval_pubmedqa.py; docs/test_split_freeze_notice.md	Leakage control and reproducibility.
+G02_test_freeze_audit_only	complete	docs/test_split_freeze_notice.md	Prevents post-freeze PubMedQA test tuning claims.
+G03_prior_knowledge_note	complete	docs/agent_prior_knowledge.md	Defines what the agent is told before proposing experiments.
+G04_hypothesis_first_cards	complete	outputs/experiment_cards/	Documents hypothesis, expected gains, risks, and allowed claims.
+G05_repeated_seed_gate	complete	results_repeated_controls.tsv; outputs/manuscript_tables/table2_repeated_seed_comparison.tsv	Prevents single-run winner claims.
+G06_full_pairwise_control_gate	complete	outputs/prediction_level_audit_full/	Compares agent against random, manual, and reference controls.
+G07_context_use_gate	complete	outputs/context_use_sanity/	Prevents overclaiming abstract-grounded reasoning.
+G08_calibration_gate	complete	outputs/calibration_sanity/	Separates macro-F1 gains from reliability claims.
+G09_manual_error_labeling_gate	complete	outputs/supervisor_case_audit/supervisor_case_audit_public_supplement_60.tsv	Restricts case examples to supervisor-informed illustrative audit, not expert consensus.
+G10_run_registry	complete	outputs/run_registry.tsv	Auditable run provenance.
+G11_language_editing_declaration	drafted	docs/bmc_midm_manuscript_submission_clean_20260508.md	Needed before submission; language-editing tools are not authors.
+G12_json_configured_reproduction_entry	complete	run_config_replicates.py; configs/repeated_seed_controls/*.json; docs/deprecated_locked_replicates_notice.md	Prevents legacy wrapper reruns from silently using the neutral no-auxiliary default.

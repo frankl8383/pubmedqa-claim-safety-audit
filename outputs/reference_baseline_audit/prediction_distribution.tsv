@@ -1,0 +1,49 @@
+task	split	model	display_name	label	label_key	support_mean	support_fraction_mean	predicted_mean	predicted_sd	predicted_fraction_mean	predicted_fraction_sd	n_seeds
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	yes	yes	83.0	0.5533333333333333	78.0	0.0	0.52	0.0	1
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	no	no	50.0	0.3333333333333333	42.0	0.0	0.28	0.0	1
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	maybe	maybe	17.0	0.11333333333333333	30.0	0.0	0.2	0.0	1
+pubmedqa	test	majority_train	Majority	yes	yes	83.0	0.5533333333333333	150.0	0.0	1.0	0.0	1
+pubmedqa	test	majority_train	Majority	no	no	50.0	0.3333333333333333	0.0	0.0	0.0	0.0	1
+pubmedqa	test	majority_train	Majority	maybe	maybe	17.0	0.11333333333333333	0.0	0.0	0.0	0.0	1
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	yes	yes	83.0	0.5533333333333333	86.0	0.0	0.5733333333333334	0.0	1
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	no	no	50.0	0.3333333333333333	61.0	0.0	0.4066666666666667	0.0	1
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	maybe	maybe	17.0	0.11333333333333333	3.0	0.0	0.02	0.0	1
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	yes	yes	83.0	0.5533333333333333	100.2	17.852170736355845	0.6679999999999999	0.11901447157570563	5
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	no	no	51.0	0.34	45.2	17.512852423291875	0.30133333333333334	0.11675234948861249	5
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	maybe	maybe	16.0	0.10666666666666666	4.6	3.1304951684997055	0.030666666666666665	0.02086996778999804	5
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	yes	yes	83.0	0.5533333333333333	71.0	0.0	0.47333333333333333	0.0	1
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	no	no	51.0	0.34	61.0	0.0	0.4066666666666667	0.0	1
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	maybe	maybe	16.0	0.10666666666666667	18.0	0.0	0.12	0.0	1
+pubmedqa	val	majority_train	Majority	yes	yes	83.0	0.5533333333333333	150.0	0.0	1.0	0.0	1
+pubmedqa	val	majority_train	Majority	no	no	51.0	0.34	0.0	0.0	0.0	0.0	1
+pubmedqa	val	majority_train	Majority	maybe	maybe	16.0	0.10666666666666667	0.0	0.0	0.0	0.0	1
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	yes	yes	83.0	0.5533333333333333	117.2	7.981227975693966	0.7813333333333332	0.053208186504626456	5
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	no	no	51.0	0.34	30.8	6.1400325732035	0.2053333333333333	0.04093355048802334	5
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	maybe	maybe	16.0	0.10666666666666666	2.0	1.8708286933869707	0.013333333333333332	0.012472191289246473	5
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	yes	yes	83.0	0.5533333333333333	114.8	11.819475453673908	0.7653333333333333	0.07879650302449269	5
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	no	no	51.0	0.34	34.0	10.977249200050075	0.22666666666666666	0.07318166133366717	5
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	maybe	maybe	16.0	0.10666666666666666	1.2	1.0954451150103321	0.008	0.007302967433402215	5
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	yes	yes	83.0	0.5533333333333333	146.4	4.505552130427524	0.976	0.03003701420285017	5
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	no	no	51.0	0.34	3.6	4.505552130427525	0.024	0.03003701420285016	5
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	maybe	maybe	16.0	0.10666666666666666	0.0	0.0	0.0	0.0	5
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	yes	yes	83.0	0.5533333333333333	139.6	6.188699378706321	0.9306666666666666	0.04125799585804212	5
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	no	no	51.0	0.34	10.4	6.18869937870632	0.06933333333333333	0.041257995858042136	5
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	maybe	maybe	16.0	0.10666666666666666	0.0	0.0	0.0	0.0	5
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	yes	yes	83.0	0.5533333333333333	121.4	6.58027355054484	0.8093333333333332	0.0438684903369656	5
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	no	no	51.0	0.34	27.4	6.268971207462991	0.18266666666666667	0.04179314138308661	5
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	maybe	maybe	16.0	0.10666666666666666	1.2	1.3038404810405297	0.008	0.008692269873603532	5
+pubmedqa	val	random_primary_best_7147e14	Random primary	yes	yes	83.0	0.5533333333333333	146.4	4.159326868617084	0.976	0.027728845790780554	5
+pubmedqa	val	random_primary_best_7147e14	Random primary	no	no	51.0	0.34	3.6	4.159326868617085	0.024	0.027728845790780565	5
+pubmedqa	val	random_primary_best_7147e14	Random primary	maybe	maybe	16.0	0.10666666666666666	0.0	0.0	0.0	0.0	5
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	yes	yes	83.0	0.5533333333333333	87.0	0.0	0.58	0.0	1
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	no	no	51.0	0.34	60.0	0.0	0.4	0.0	1
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	maybe	maybe	16.0	0.10666666666666667	3.0	0.0	0.02	0.0	1
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	SUPPORT	support	138.0	0.40707964601769914	130.0	0.0	0.3834808259587021	0.0	1
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	CONTRADICT	contradict	71.0	0.20943952802359883	77.0	0.0	0.22713864306784662	0.0	1
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	NOT_ENOUGH_INFO	not_enough_info	130.0	0.3834808259587021	132.0	0.0	0.3893805309734513	0.0	1
+scifact	dev	majority_train	Majority	SUPPORT	support	138.0	0.40707964601769914	339.0	0.0	1.0	0.0	1
+scifact	dev	majority_train	Majority	CONTRADICT	contradict	71.0	0.20943952802359883	0.0	0.0	0.0	0.0	1
+scifact	dev	majority_train	Majority	NOT_ENOUGH_INFO	not_enough_info	130.0	0.3834808259587021	0.0	0.0	0.0	0.0	1
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	SUPPORT	support	138.0	0.40707964601769914	120.0	0.0	0.35398230088495575	0.0	1
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	CONTRADICT	contradict	71.0	0.20943952802359883	87.0	0.0	0.25663716814159293	0.0	1
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	NOT_ENOUGH_INFO	not_enough_info	130.0	0.3834808259587021	132.0	0.0	0.3893805309734513	0.0	1

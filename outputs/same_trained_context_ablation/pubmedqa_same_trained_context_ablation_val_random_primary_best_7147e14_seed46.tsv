@@ -1,0 +1,7 @@
+config_name	seed	split	prompt_mode	n_examples	accuracy	macro_f1	brier	f1_yes	f1_no	f1_maybe	prediction_file
+random_primary_best_7147e14	46	val	question_context	150	0.553333	0.237482	0.569931	0.712446	0.000000	0.000000	outputs/same_trained_context_ablation/predictions/pubmedqa_val_random_primary_best_7147e14_seed46_question_context.tsv
+random_primary_best_7147e14	46	val	question_only	150	0.553333	0.237482	0.577871	0.712446	0.000000	0.000000	outputs/same_trained_context_ablation/predictions/pubmedqa_val_random_primary_best_7147e14_seed46_question_only.tsv
+random_primary_best_7147e14	46	val	context_removed	150	0.553333	0.237482	0.574720	0.712446	0.000000	0.000000	outputs/same_trained_context_ablation/predictions/pubmedqa_val_random_primary_best_7147e14_seed46_context_removed.tsv
+random_primary_best_7147e14	46	val	context_only	150	0.553333	0.237482	0.569365	0.712446	0.000000	0.000000	outputs/same_trained_context_ablation/predictions/pubmedqa_val_random_primary_best_7147e14_seed46_context_only.tsv
+random_primary_best_7147e14	46	val	shuffled_context	150	0.553333	0.237482	0.571619	0.712446	0.000000	0.000000	outputs/same_trained_context_ablation/predictions/pubmedqa_val_random_primary_best_7147e14_seed46_shuffled_context.tsv
+random_primary_best_7147e14	46	val	question_shuffled	150	0.553333	0.237482	0.571193	0.712446	0.000000	0.000000	outputs/same_trained_context_ablation/predictions/pubmedqa_val_random_primary_best_7147e14_seed46_question_shuffled.tsv

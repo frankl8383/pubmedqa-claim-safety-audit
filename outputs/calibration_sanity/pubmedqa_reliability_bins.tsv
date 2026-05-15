@@ -1,0 +1,81 @@
+bin	bin_low	bin_high	n	mean_confidence	accuracy	gap_accuracy_minus_confidence	model	display_name	group
+0	0.0	0.1	0				majority_train	Majority	baseline
+1	0.1	0.2	0				majority_train	Majority	baseline
+2	0.2	0.3	0				majority_train	Majority	baseline
+3	0.3	0.4	0				majority_train	Majority	baseline
+4	0.4	0.5	0				majority_train	Majority	baseline
+5	0.5	0.6	0				majority_train	Majority	baseline
+6	0.6	0.7	0				majority_train	Majority	baseline
+7	0.7	0.8	0				majority_train	Majority	baseline
+8	0.8	0.9	0				majority_train	Majority	baseline
+9	0.9	1.0	150	1.0	0.5533333333333333	-0.44666666666666666	majority_train	Majority	baseline
+0	0.0	0.1	0				manual_baseline_f1664dd	Manual baseline	autoresearch
+1	0.1	0.2	0				manual_baseline_f1664dd	Manual baseline	autoresearch
+2	0.2	0.3	0				manual_baseline_f1664dd	Manual baseline	autoresearch
+3	0.3	0.4	9	0.38222978400521695	0.3333333333333333	-0.04889645067188364	manual_baseline_f1664dd	Manual baseline	autoresearch
+4	0.4	0.5	98	0.46552032621608713	0.3979591836734694	-0.06756114254261775	manual_baseline_f1664dd	Manual baseline	autoresearch
+5	0.5	0.6	202	0.5547234517252553	0.49504950495049505	-0.059673946774760234	manual_baseline_f1664dd	Manual baseline	autoresearch
+6	0.6	0.7	178	0.6465751972178108	0.4943820224719101	-0.15219317474590066	manual_baseline_f1664dd	Manual baseline	autoresearch
+7	0.7	0.8	133	0.747314406109162	0.5413533834586466	-0.2059610226505154	manual_baseline_f1664dd	Manual baseline	autoresearch
+8	0.8	0.9	89	0.8383420585022983	0.5955056179775281	-0.24283644052477016	manual_baseline_f1664dd	Manual baseline	autoresearch
+9	0.9	1.0	41	0.9336334579065776	0.5853658536585366	-0.34826760424804104	manual_baseline_f1664dd	Manual baseline	autoresearch
+0	0.0	0.1	0				random_brier_best_8dc23be	Random Brier best	autoresearch
+1	0.1	0.2	0				random_brier_best_8dc23be	Random Brier best	autoresearch
+2	0.2	0.3	0				random_brier_best_8dc23be	Random Brier best	autoresearch
+3	0.3	0.4	0				random_brier_best_8dc23be	Random Brier best	autoresearch
+4	0.4	0.5	116	0.47365230955550836	0.4827586206896552	0.009106311134146838	random_brier_best_8dc23be	Random Brier best	autoresearch
+5	0.5	0.6	394	0.549505812723963	0.5380710659898477	-0.011434746734115375	random_brier_best_8dc23be	Random Brier best	autoresearch
+6	0.6	0.7	205	0.6393930318924458	0.6195121951219512	-0.01988083677049457	random_brier_best_8dc23be	Random Brier best	autoresearch
+7	0.7	0.8	29	0.7319034774694303	0.6206896551724138	-0.11121382229701648	random_brier_best_8dc23be	Random Brier best	autoresearch
+8	0.8	0.9	6	0.8216404589157599	0.5	-0.3216404589157599	random_brier_best_8dc23be	Random Brier best	autoresearch
+9	0.9	1.0	0				random_brier_best_8dc23be	Random Brier best	autoresearch
+0	0.0	0.1	0				random_macro_f1_best_8a1209b	Random macro-F1 best	autoresearch
+1	0.1	0.2	0				random_macro_f1_best_8a1209b	Random macro-F1 best	autoresearch
+2	0.2	0.3	0				random_macro_f1_best_8a1209b	Random macro-F1 best	autoresearch
+3	0.3	0.4	1	0.3859258213210031	0.0	-0.3859258213210031	random_macro_f1_best_8a1209b	Random macro-F1 best	autoresearch
+4	0.4	0.5	86	0.46735767836842007	0.4418604651162791	-0.025497213252140993	random_macro_f1_best_8a1209b	Random macro-F1 best	autoresearch
+5	0.5	0.6	197	0.5485221826219193	0.49746192893401014	-0.051060253687909174	random_macro_f1_best_8a1209b	Random macro-F1 best	autoresearch
+6	0.6	0.7	199	0.6483390475558014	0.5326633165829145	-0.11567573097288686	random_macro_f1_best_8a1209b	Random macro-F1 best	autoresearch
+7	0.7	0.8	132	0.7493357424132759	0.5	-0.24933574241327594	random_macro_f1_best_8a1209b	Random macro-F1 best	autoresearch
+8	0.8	0.9	96	0.8468256464954895	0.6145833333333334	-0.23224231316215616	random_macro_f1_best_8a1209b	Random macro-F1 best	autoresearch
+9	0.9	1.0	39	0.9374481750352555	0.6923076923076923	-0.24514048272756317	random_macro_f1_best_8a1209b	Random macro-F1 best	autoresearch
+0	0.0	0.1	0				random_primary_best_7147e14	Random primary	autoresearch
+1	0.1	0.2	0				random_primary_best_7147e14	Random primary	autoresearch
+2	0.2	0.3	0				random_primary_best_7147e14	Random primary	autoresearch
+3	0.3	0.4	0				random_primary_best_7147e14	Random primary	autoresearch
+4	0.4	0.5	61	0.4771977767701418	0.5409836065573771	0.0637858297872353	random_primary_best_7147e14	Random primary	autoresearch
+5	0.5	0.6	479	0.5605884380933203	0.5427974947807933	-0.017790943312526952	random_primary_best_7147e14	Random primary	autoresearch
+6	0.6	0.7	206	0.6292326141336104	0.5776699029126213	-0.0515627112209891	random_primary_best_7147e14	Random primary	autoresearch
+7	0.7	0.8	4	0.7319368142267343	1.0	0.2680631857732657	random_primary_best_7147e14	Random primary	autoresearch
+8	0.8	0.9	0				random_primary_best_7147e14	Random primary	autoresearch
+9	0.9	1.0	0				random_primary_best_7147e14	Random primary	autoresearch
+0	0.0	0.1	0				agent_aux_a20f5b7	Agent auxiliary	autoresearch
+1	0.1	0.2	0				agent_aux_a20f5b7	Agent auxiliary	autoresearch
+2	0.2	0.3	0				agent_aux_a20f5b7	Agent auxiliary	autoresearch
+3	0.3	0.4	5	0.39101975633181574	0.4	0.008980243668184285	agent_aux_a20f5b7	Agent auxiliary	autoresearch
+4	0.4	0.5	93	0.46957099606053554	0.4946236559139785	0.02505265985344296	agent_aux_a20f5b7	Agent auxiliary	autoresearch
+5	0.5	0.6	201	0.5474885316780492	0.5024875621890548	-0.04500096948899446	agent_aux_a20f5b7	Agent auxiliary	autoresearch
+6	0.6	0.7	192	0.6505008526675724	0.4791666666666667	-0.17133418600090572	agent_aux_a20f5b7	Agent auxiliary	autoresearch
+7	0.7	0.8	142	0.7476692896276584	0.49295774647887325	-0.2547115431487852	agent_aux_a20f5b7	Agent auxiliary	autoresearch
+8	0.8	0.9	86	0.8417634722293171	0.4883720930232558	-0.35339137920606134	agent_aux_a20f5b7	Agent auxiliary	autoresearch
+9	0.9	1.0	31	0.9403158696493391	0.6129032258064516	-0.3274126438428875	agent_aux_a20f5b7	Agent auxiliary	autoresearch
+0	0.0	0.1	0				tfidf_lr_selected	TF-IDF LR	reference
+1	0.1	0.2	0				tfidf_lr_selected	TF-IDF LR	reference
+2	0.2	0.3	0				tfidf_lr_selected	TF-IDF LR	reference
+3	0.3	0.4	150	0.3347205735012066	0.5066666666666667	0.1719460931654601	tfidf_lr_selected	TF-IDF LR	reference
+4	0.4	0.5	0				tfidf_lr_selected	TF-IDF LR	reference
+5	0.5	0.6	0				tfidf_lr_selected	TF-IDF LR	reference
+6	0.6	0.7	0				tfidf_lr_selected	TF-IDF LR	reference
+7	0.7	0.8	0				tfidf_lr_selected	TF-IDF LR	reference
+8	0.8	0.9	0				tfidf_lr_selected	TF-IDF LR	reference
+9	0.9	1.0	0				tfidf_lr_selected	TF-IDF LR	reference
+0	0.0	0.1	0				frozen_biomedbert	Frozen BiomedBERT	reference
+1	0.1	0.2	0				frozen_biomedbert	Frozen BiomedBERT	reference
+2	0.2	0.3	0				frozen_biomedbert	Frozen BiomedBERT	reference
+3	0.3	0.4	0				frozen_biomedbert	Frozen BiomedBERT	reference
+4	0.4	0.5	1	0.4477031230926513	0.0	-0.4477031230926513	frozen_biomedbert	Frozen BiomedBERT	reference
+5	0.5	0.6	19	0.5514651693795857	0.5789473684210527	0.02748219904146698	frozen_biomedbert	Frozen BiomedBERT	reference
+6	0.6	0.7	8	0.6465371251106262	0.375	-0.2715371251106262	frozen_biomedbert	Frozen BiomedBERT	reference
+7	0.7	0.8	11	0.7477908297018572	0.18181818181818182	-0.5659726478836753	frozen_biomedbert	Frozen BiomedBERT	reference
+8	0.8	0.9	14	0.8598337386335645	0.5	-0.3598337386335645	frozen_biomedbert	Frozen BiomedBERT	reference
+9	0.9	1.0	97	0.9791030779327314	0.5773195876288659	-0.4017834903038655	frozen_biomedbert	Frozen BiomedBERT	reference

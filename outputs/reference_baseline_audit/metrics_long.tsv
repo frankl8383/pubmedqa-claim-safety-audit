@@ -1,0 +1,193 @@
+task	split	model	display_name	group	n_examples	n_seeds	metric	point	ci_low	ci_high	bootstrap_sd	n_bootstrap
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	accuracy	0.4666666666666667	0.38666666666666666	0.5466666666666666	0.04064097429375705	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	macro_f1	0.3952469054226686	0.31736318882225373	0.47197814444404806	0.039911498964810756	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	brier	0.8830000398189614	0.7517459559181848	1.016672943105904	0.06736955633823191	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	precision_yes	0.5769230769230769	0.463768115942029	0.6842105263157895	0.05604531622038727	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	recall_yes	0.5421686746987951	0.43243243243243246	0.6477272727272727	0.05456286219200245	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	f1_yes	0.5590062111801242	0.4615384615384615	0.6444444444444445	0.04710747829853987	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	precision_no	0.5	0.34782608695652173	0.6511627906976745	0.07822910013308762	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	recall_no	0.42	0.2857142857142857	0.5555555555555556	0.06976351293283876	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	f1_no	0.4565217391304348	0.3232160312805474	0.577319587628866	0.06489306810469546	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	precision_maybe	0.13333333333333333	0.030303030303030304	0.26666666666666666	0.06249552273388139	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	recall_maybe	0.23529411764705882	0.05555555555555555	0.46153846153846156	0.10656715508258532	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	f1_maybe	0.1702127659574468	0.04164540816326533	0.31999999999999995	0.07378423051221548	10000
+pubmedqa	test	majority_train	Majority	baseline	150	1	accuracy	0.5533333333333333	0.47333333333333333	0.6333333333333333	0.04035221744052561	10000
+pubmedqa	test	majority_train	Majority	baseline	150	1	macro_f1	0.23748211731044352	0.21417797888386123	0.2585034013605442	0.011180409060580392	10000
+pubmedqa	test	majority_train	Majority	baseline	150	1	brier	0.8933333333333333	0.7333333333333333	1.0533333333333332	0.08070443488105122	10000
+pubmedqa	test	majority_train	Majority	baseline	150	1	precision_yes	0.5533333333333333	0.47333333333333333	0.6333333333333333	0.04035221744052561	10000
+pubmedqa	test	majority_train	Majority	baseline	150	1	recall_yes	1.0	1.0	1.0	0.0	10000
+pubmedqa	test	majority_train	Majority	baseline	150	1	f1_yes	0.7124463519313305	0.6425339366515836	0.7755102040816326	0.03354122718174118	10000
+pubmedqa	test	majority_train	Majority	baseline	150	1	precision_no	0.0	0.0	0.0	0.0	10000
+pubmedqa	test	majority_train	Majority	baseline	150	1	recall_no	0.0	0.0	0.0	0.0	10000
+pubmedqa	test	majority_train	Majority	baseline	150	1	f1_no	0.0	0.0	0.0	0.0	10000
+pubmedqa	test	majority_train	Majority	baseline	150	1	precision_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	test	majority_train	Majority	baseline	150	1	recall_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	test	majority_train	Majority	baseline	150	1	f1_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	accuracy	0.54	0.46	0.62	0.04067703837589448	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	macro_f1	0.37517991364145215	0.31846655206941527	0.42760261613910905	0.027871981344937825	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	brier	0.6652299051803003	0.664880005831966	0.6655989207296322	0.0001839939235461115	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	precision_yes	0.627906976744186	0.5263157894736842	0.7282608695652174	0.05194574109538498	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	recall_yes	0.6506024096385542	0.5443037974683544	0.75	0.05250792507698565	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	f1_yes	0.6390532544378699	0.5490136298421807	0.7176470588235294	0.043302727575756025	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	precision_no	0.4426229508196721	0.3188241106719367	0.5692307692307692	0.06446585828683422	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	recall_no	0.54	0.3962165880503145	0.6739256825075832	0.07085734472713838	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	f1_no	0.48648648648648646	0.36363636363636365	0.5937577351485148	0.05909305195558299	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	precision_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	recall_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	f1_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	agent	150	5	accuracy	0.496	0.44266666666666665	0.5506666666666666	0.027616063951679693	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	agent	150	5	macro_f1	0.32906037364979723	0.29454396624123574	0.3618484416500783	0.017069290458450206	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	agent	150	5	brier	0.6531670325836475	0.5909768419770683	0.7153593734478123	0.03178713913604706	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	agent	150	5	precision_yes	0.5663003540679279	0.4803885846853564	0.6527688176782691	0.044160703986745604	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	agent	150	5	recall_yes	0.6843373493975904	0.628235294117647	0.7375	0.02824052702758429	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	agent	150	5	f1_yes	0.6157606621354239	0.5510894123462416	0.6748092170916358	0.031312170711648456	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	agent	150	5	precision_no	0.39177960113264904	0.28387725355482085	0.49935385393499804	0.05454034431368903	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	agent	150	5	recall_no	0.3411764705882353	0.2692307692307693	0.4170212765957447	0.037513494648144644	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	agent	150	5	f1_no	0.3547537921473013	0.2769300337242321	0.42466936156817114	0.0378920204053557	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	agent	150	5	precision_maybe	0.025	0.0	0.08571428571428572	0.025154542574198854	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	agent	150	5	recall_maybe	0.0125	0.0	0.04285714285714286	0.012439891777812503	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	agent	150	5	f1_maybe	0.016666666666666666	0.0	0.05161290322580646	0.015465475151620077	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	accuracy	0.5266666666666666	0.44666666666666666	0.6066666666666667	0.040918788752228694	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	macro_f1	0.43652915711739254	0.3559139167172004	0.5196661846090417	0.04262667542738856	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	brier	0.8099799996331404	0.6763422752604572	0.944085676283873	0.06855409764682073	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	precision_yes	0.647887323943662	0.5342465753424658	0.7580645161290323	0.05680051114507422	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	recall_yes	0.5542168674698795	0.4473684210526316	0.6593465045592705	0.05427891958885943	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	f1_yes	0.5974025974025975	0.5	0.6832376759179181	0.04689877615468323	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	precision_no	0.4918032786885246	0.36665492957746476	0.6190476190476191	0.06442305588618835	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	recall_no	0.5882352941176471	0.4499744897959184	0.725	0.06977133591877004	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	f1_no	0.5357142857142858	0.4158415841584158	0.6412213740458015	0.057559024797891975	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	precision_maybe	0.16666666666666666	0.0	0.3572142857142847	0.09057111326063987	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	recall_maybe	0.1875	0.0	0.4117647058823529	0.10184498272449641	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	150	1	f1_maybe	0.17647058823529413	0.0	0.35294117647058826	0.08885662742706431	10000
+pubmedqa	val	majority_train	Majority	baseline	150	1	accuracy	0.5533333333333333	0.47333333333333333	0.6333333333333333	0.04084497187136646	10000
+pubmedqa	val	majority_train	Majority	baseline	150	1	macro_f1	0.23748211731044352	0.21417797888386123	0.2585034013605442	0.0113245908539435	10000
+pubmedqa	val	majority_train	Majority	baseline	150	1	brier	0.8933333333333333	0.7333333333333333	1.0533333333333332	0.08168994374273292	10000
+pubmedqa	val	majority_train	Majority	baseline	150	1	precision_yes	0.5533333333333333	0.47333333333333333	0.6333333333333333	0.04084497187136646	10000
+pubmedqa	val	majority_train	Majority	baseline	150	1	recall_yes	1.0	1.0	1.0	0.0	10000
+pubmedqa	val	majority_train	Majority	baseline	150	1	f1_yes	0.7124463519313305	0.6425339366515836	0.7755102040816326	0.033973772561830505	10000
+pubmedqa	val	majority_train	Majority	baseline	150	1	precision_no	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	majority_train	Majority	baseline	150	1	recall_no	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	majority_train	Majority	baseline	150	1	f1_no	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	majority_train	Majority	baseline	150	1	precision_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	majority_train	Majority	baseline	150	1	recall_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	majority_train	Majority	baseline	150	1	f1_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	manual	150	5	accuracy	0.5053333333333334	0.4453333333333333	0.5640000000000001	0.030182473331548575	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	manual	150	5	macro_f1	0.31046113579835455	0.2775351714730745	0.3411827771803714	0.016458414462481835	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	manual	150	5	brier	0.6355831144464483	0.5704056690722326	0.7042679829649082	0.03366872308061926	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	manual	150	5	precision_yes	0.5510536803733304	0.4686204582247138	0.6324500958172665	0.042127308289908995	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	manual	150	5	recall_yes	0.7783132530120482	0.7308641975308642	0.8240000000000001	0.023760644580187097	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	manual	150	5	f1_yes	0.6446831563590558	0.5794125027391015	0.7026786638261788	0.03152450402911728	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	manual	150	5	precision_no	0.3559463150929028	0.24643742068671942	0.4694385649819887	0.05698586312348833	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	manual	150	5	recall_no	0.2156862745098039	0.16071428571428573	0.27442088463292297	0.029216948097250808	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	manual	150	5	f1_no	0.26670025103600786	0.1963103921286306	0.3304631584051666	0.03410631214829704	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	manual	150	5	precision_maybe	0.05	0.0	0.2	0.049801646343892586	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	manual	150	5	recall_maybe	0.0125	0.0	0.04285714285714286	0.012599863435963208	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	manual	150	5	f1_maybe	0.02	0.0	0.06	0.01836382172674439	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	manual	150	5	accuracy	0.5133333333333333	0.45599999999999996	0.5733333333333333	0.029888097840209186	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	manual	150	5	macro_f1	0.30983213963589096	0.28172375738440203	0.33612853231259887	0.01389051898048564	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	manual	150	5	brier	0.6409186391482298	0.5786652353683179	0.7018557368186273	0.03164252449343327	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	manual	150	5	precision_yes	0.566887361061932	0.48471770906273437	0.6501216504299121	0.04212116894209836	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	manual	150	5	recall_yes	0.783132530120482	0.7372093023255814	0.8270303636970303	0.0231592207375059	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	manual	150	5	f1_yes	0.6564348869945594	0.5935136910810614	0.714774006684905	0.0309664046634591	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	manual	150	5	precision_no	0.33710978420280746	0.24211667644692828	0.43697109962406006	0.05000534062518048	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	manual	150	5	recall_no	0.23529411764705888	0.1829787234042553	0.29	0.0270742220461588	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	manual	150	5	f1_no	0.2730615319131134	0.21230815686576418	0.32854729756118484	0.029673858104644013	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	manual	150	5	precision_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	manual	150	5	recall_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	manual	150	5	f1_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	random	150	5	accuracy	0.5466666666666666	0.46799999999999997	0.624	0.03956250304158981	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	random	150	5	macro_f1	0.2482164050401961	0.2229140888982248	0.27140181003179525	0.012281744399877422	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	random	150	5	brier	0.5722322505865379	0.5231611512112856	0.6234605086975719	0.025620176209370595	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	random	150	5	precision_yes	0.5518979002292109	0.4698319874999866	0.6321569052246869	0.04112026598711412	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	random	150	5	recall_yes	0.9734939759036145	0.9578947368421054	0.9873417721518987	0.0075239457188459435	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	random	150	5	f1_yes	0.7043102320697409	0.6331946055222567	0.7670094747305833	0.03378255721149416	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	random	150	5	precision_no	0.14166666666666666	0.05	0.24444444444444446	0.04986765619447569	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	random	150	5	recall_no	0.023529411764705882	0.007692307692307693	0.04285714285714286	0.009077969694965009	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	random	150	5	f1_no	0.04033898305084745	0.013444338246746812	0.0699790574970185	0.014641962869669374	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	random	150	5	precision_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	random	150	5	recall_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	random	150	5	f1_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	random	150	5	accuracy	0.5546666666666666	0.484	0.6266666666666667	0.03670578703916674	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	random	150	5	macro_f1	0.2853282085030518	0.25515593548100257	0.3145447150399751	0.015124873054285481	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	random	150	5	brier	0.5684502927726187	0.5168810338889406	0.6210582815282912	0.026392617449248673	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	random	150	5	precision_yes	0.5616536529327398	0.48263673699602994	0.6422120395127159	0.04059783898390634	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	random	150	5	recall_yes	0.9445783132530121	0.9173333333333333	0.9682926829268294	0.012980511095272184	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	random	150	5	f1_yes	0.704185938629392	0.6373233116319378	0.764791797694741	0.032553165848757844	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	random	150	5	precision_no	0.5743589743589743	0.2676753246753246	0.7032348484848484	0.12160719609526154	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	random	150	5	recall_no	0.09411764705882351	0.05714285714285714	0.1368469785575048	0.020334127016499923	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	random	150	5	f1_no	0.15179868687976314	0.09332853128021643	0.21117091460622	0.03017206792749892	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	random	150	5	precision_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	random	150	5	recall_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	random	150	5	f1_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	random	150	5	accuracy	0.5253333333333334	0.45999999999999996	0.5880000000000001	0.032875473307671314	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	random	150	5	macro_f1	0.3112059898488917	0.2757295394001468	0.34473029966882895	0.01755620720860202	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	random	150	5	brier	0.6227296025520624	0.5549894835607969	0.6939952968796973	0.03534372557873061	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	random	150	5	precision_yes	0.5632050619292499	0.47823772771071743	0.6448947316546768	0.04246491660236199	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	random	150	5	recall_yes	0.8240963855421686	0.7753416201589718	0.8693891723356009	0.02416388416927714	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	random	150	5	f1_yes	0.6687441625477356	0.6010165142895995	0.72659454931917	0.03238487097485436	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	random	150	5	precision_no	0.392554578038449	0.26899830377955375	0.5192830058047927	0.06365950393904976	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	random	150	5	recall_no	0.203921568627451	0.13846153846153847	0.27346938775510204	0.034437518022036685	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	random	150	5	f1_no	0.2648738069989396	0.1835149033590225	0.3397246096131967	0.04021998944631129	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	random	150	5	precision_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	random	150	5	recall_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	random	150	5	f1_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	random	150	5	accuracy	0.5546666666666666	0.47733333333333333	0.632	0.03934207927318956	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	random	150	5	macro_f1	0.25725727388377384	0.23005992265545983	0.2835545229800218	0.013561676955827218	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	random	150	5	brier	0.5650975540595826	0.5137720564738925	0.6172492472997885	0.026720091177804398	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	random	150	5	precision_yes	0.5560014074595355	0.4767072954815386	0.6361824782765473	0.040869029154646436	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	random	150	5	recall_yes	0.980722891566265	0.9673435931749749	0.9926829268292682	0.006503832537394956	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	random	150	5	f1_yes	0.7095634774757643	0.6408844032495921	0.7721152551246885	0.033493947948133686	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	random	150	5	precision_no	0.30666666666666664	0.13636363636363638	0.4769230769230769	0.08505469339641558	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	random	150	5	recall_no	0.03529411764705882	0.011764705882352941	0.064	0.013380547519277771	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	random	150	5	f1_no	0.06220834417555728	0.02145936318282438	0.1065852453622302	0.021809992979239856	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	random	150	5	precision_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	random	150	5	recall_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	random	150	5	f1_maybe	0.0	0.0	0.0	0.0	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	accuracy	0.5066666666666667	0.4266666666666667	0.5866666666666667	0.041065890131455625	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	macro_f1	0.3771474260638348	0.2978567557936272	0.4674980941190459	0.043393278356462235	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	brier	0.6653418246990502	0.6649782518870552	0.665730749026934	0.00019319961965910397	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	precision_yes	0.5977011494252874	0.4939759036144578	0.7011494252873564	0.05299048201447648	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	recall_yes	0.6265060240963856	0.5222222222222223	0.7294197138314784	0.053493658200217856	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	f1_yes	0.611764705882353	0.5217391304347826	0.6947368421052631	0.04441124558628037	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	precision_no	0.38333333333333336	0.2602671232876712	0.5084745762711864	0.06338505939499164	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	recall_no	0.45098039215686275	0.3125	0.5909090909090909	0.07152668055065298	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	f1_no	0.41441441441441446	0.2916666666666667	0.5245901639344263	0.05973841579777414	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	precision_maybe	0.3333333333333333	0.0	1.0	0.30704241067758015	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	recall_maybe	0.0625	0.0	0.21052631578947367	0.062469793440649304	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	traditional_baseline	150	1	f1_maybe	0.10526315789473684	0.0	0.3157894736842105	0.09536385504729795	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	339	1	accuracy	0.48672566371681414	0.4336283185840708	0.5398230088495575	0.027209268833372616	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	339	1	macro_f1	0.43810296567502904	0.39244602771334935	0.48443095308422907	0.02339458981829963	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	339	1	brier	0.8519487982263685	0.7645957333592907	0.9397948520587198	0.04504491022810841	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	339	1	precision_support	0.4461538461538462	0.35877862595419846	0.5333333333333333	0.044314359609069987	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	339	1	recall_support	0.42028985507246375	0.33858267716535434	0.5041322314049587	0.04215542934120118	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	339	1	f1_support	0.43283582089552236	0.356060606060606	0.5068516933028919	0.038289856835006235	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	339	1	precision_contradict	0.14285714285714285	0.06896551724137931	0.225	0.040135362387939175	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	339	1	recall_contradict	0.15492957746478872	0.07575757575757576	0.2459079445145018	0.04353097651745736	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	339	1	f1_contradict	0.14864864864864866	0.07194244604316546	0.22818791946308728	0.03992872977872582	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	339	1	precision_not_enough_info	0.7272727272727273	0.6495726495726496	0.803030303030303	0.039297561105396846	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	339	1	recall_not_enough_info	0.7384615384615385	0.6614141478282957	0.8102189781021898	0.0385665507089847	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	biomedical_encoder	339	1	f1_not_enough_info	0.732824427480916	0.6693869321922317	0.788735200044891	0.030940412807037625	10000
+scifact	dev	majority_train	Majority	baseline	339	1	accuracy	0.40707964601769914	0.35398230088495575	0.46017699115044247	0.026751400360434115	10000
+scifact	dev	majority_train	Majority	baseline	339	1	macro_f1	0.19287211740041932	0.17429193899782133	0.2101010101010101	0.009017612214424972	10000
+scifact	dev	majority_train	Majority	baseline	339	1	brier	1.1858407079646018	1.079646017699115	1.2920353982300885	0.05350280072086823	10000
+scifact	dev	majority_train	Majority	baseline	339	1	precision_support	0.40707964601769914	0.35398230088495575	0.46017699115044247	0.026751400360434115	10000
+scifact	dev	majority_train	Majority	baseline	339	1	recall_support	1.0	1.0	1.0	0.0	10000
+scifact	dev	majority_train	Majority	baseline	339	1	f1_support	0.578616352201258	0.522875816993464	0.6303030303030303	0.027052836643274927	10000
+scifact	dev	majority_train	Majority	baseline	339	1	precision_contradict	0.0	0.0	0.0	0.0	10000
+scifact	dev	majority_train	Majority	baseline	339	1	recall_contradict	0.0	0.0	0.0	0.0	10000
+scifact	dev	majority_train	Majority	baseline	339	1	f1_contradict	0.0	0.0	0.0	0.0	10000
+scifact	dev	majority_train	Majority	baseline	339	1	precision_not_enough_info	0.0	0.0	0.0	0.0	10000
+scifact	dev	majority_train	Majority	baseline	339	1	recall_not_enough_info	0.0	0.0	0.0	0.0	10000
+scifact	dev	majority_train	Majority	baseline	339	1	f1_not_enough_info	0.0	0.0	0.0	0.0	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	traditional_baseline	339	1	accuracy	0.45722713864306785	0.40412979351032446	0.5103244837758112	0.02659765735890178	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	traditional_baseline	339	1	macro_f1	0.42640402910016645	0.37903680702358994	0.4736932087542479	0.024421963875453846	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	traditional_baseline	339	1	brier	0.6475073397103115	0.6188186195362437	0.6762679631279577	0.014682595971503289	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	traditional_baseline	339	1	precision_support	0.39166666666666666	0.3050847457627119	0.48	0.04474050579766698	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	traditional_baseline	339	1	recall_support	0.34057971014492755	0.2624113475177305	0.42063492063492064	0.04020955116416543	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	traditional_baseline	339	1	f1_support	0.3643410852713178	0.2880658436213992	0.4367879948914431	0.038150210809229076	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	traditional_baseline	339	1	precision_contradict	0.20689655172413793	0.125	0.29591836734693877	0.0432756526135777	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	traditional_baseline	339	1	recall_contradict	0.2535211267605634	0.15584415584415584	0.3582089552238806	0.051737659919035464	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	traditional_baseline	339	1	f1_contradict	0.2278481012658228	0.1410211267605634	0.31446540880503143	0.0441438413435158	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	traditional_baseline	339	1	precision_not_enough_info	0.6818181818181818	0.6029411764705882	0.7573529411764706	0.04012720360417909	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	traditional_baseline	339	1	recall_not_enough_info	0.6923076923076923	0.6141697748307777	0.7709972182688575	0.04029363049440514	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	traditional_baseline	339	1	f1_not_enough_info	0.6870229007633587	0.6216189296866589	0.7482014388489209	0.03259188830348471	10000

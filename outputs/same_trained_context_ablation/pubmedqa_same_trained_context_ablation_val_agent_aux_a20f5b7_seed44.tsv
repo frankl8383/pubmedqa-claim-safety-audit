@@ -1,0 +1,7 @@
+config_name	seed	split	prompt_mode	n_examples	accuracy	macro_f1	brier	f1_yes	f1_no	f1_maybe	prediction_file
+agent_aux_a20f5b7	44	val	question_context	150	0.460000	0.314583	0.672055	0.593750	0.250000	0.100000	outputs/same_trained_context_ablation/predictions/pubmedqa_val_agent_aux_a20f5b7_seed44_question_context.tsv
+agent_aux_a20f5b7	44	val	question_only	150	0.546667	0.235632	0.719814	0.706897	0.000000	0.000000	outputs/same_trained_context_ablation/predictions/pubmedqa_val_agent_aux_a20f5b7_seed44_question_only.tsv
+agent_aux_a20f5b7	44	val	context_removed	150	0.513333	0.355290	0.645514	0.663366	0.208955	0.193548	outputs/same_trained_context_ablation/predictions/pubmedqa_val_agent_aux_a20f5b7_seed44_context_removed.tsv
+agent_aux_a20f5b7	44	val	context_only	150	0.466667	0.339514	0.674761	0.604167	0.232558	0.181818	outputs/same_trained_context_ablation/predictions/pubmedqa_val_agent_aux_a20f5b7_seed44_context_only.tsv
+agent_aux_a20f5b7	44	val	shuffled_context	150	0.493333	0.340294	0.692269	0.618557	0.302326	0.100000	outputs/same_trained_context_ablation/predictions/pubmedqa_val_agent_aux_a20f5b7_seed44_shuffled_context.tsv
+agent_aux_a20f5b7	44	val	question_shuffled	150	0.460000	0.310165	0.669908	0.597938	0.232558	0.100000	outputs/same_trained_context_ablation/predictions/pubmedqa_val_agent_aux_a20f5b7_seed44_question_shuffled.tsv

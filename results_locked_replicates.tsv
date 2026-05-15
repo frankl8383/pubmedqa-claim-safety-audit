@@ -1,0 +1,7 @@
+phase	split	seed	commit	lm_val_bpb	pubmedqa_acc	pubmedqa_macro_f1	pubmedqa_brier	memory_gb	params_M	tokens_M	status	description
+validation	val	42	5e396c2	1.839283	0.453333	0.311519	0.627610	0.0	16.7	7.3	ok	frozen agent #002 protocol with delayed weak class-balanced answer-label auxiliary loss
+validation	val	43	5e396c2	1.889034	0.446667	0.312764	0.675819	0.0	16.7	7.1	ok	frozen agent #002 protocol with delayed weak class-balanced answer-label auxiliary loss
+validation	val	44	5e396c2	1.869463	0.466667	0.349009	0.663708	0.0	16.7	7.0	ok	frozen agent #002 protocol with delayed weak class-balanced answer-label auxiliary loss
+post_freeze_test_audit	test	42	e3dc302	1.887089	0.420000	0.339091	0.655005	0.0	16.7	7.5	ok	frozen agent #002 protocol with delayed weak class-balanced answer-label auxiliary loss
+post_freeze_test_audit	test	43	e3dc302	1.937828	0.506667	0.407705	0.625426	0.0	16.7	7.2	ok	frozen agent #002 protocol with delayed weak class-balanced answer-label auxiliary loss
+post_freeze_test_audit	test	44	e3dc302	1.925048	0.473333	0.338992	0.655139	0.0	16.7	6.7	ok	frozen agent #002 protocol with delayed weak class-balanced answer-label auxiliary loss

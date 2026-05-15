@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or audit package, please cite the archived release."
+title: "PubMedQA claim-safety audit package"
+version: "v1.0.1-bmc-midm-clean"
+date-released: "2026-05-12"
+url: "https://github.com/frankl8383/pubmedqa-claim-safety-audit"
+repository-code: "https://github.com/frankl8383/pubmedqa-claim-safety-audit"
+authors:
+  - family-names: Liu
+    given-names: Zihao
+    orcid: "https://orcid.org/0009-0008-5010-2298"
+  - family-names: Li
+    given-names: Bing
+    orcid: "https://orcid.org/0000-0003-0234-044X"
+preferred-citation:
+  type: article
+  title: "A claim-safety methods audit of low-resource autonomous biomedical NLP experimentation: a PubMedQA case study"
+  authors:
+    - family-names: Liu
+      given-names: Zihao
+      orcid: "https://orcid.org/0009-0008-5010-2298"
+    - family-names: Li
+      given-names: Bing
+      orcid: "https://orcid.org/0000-0003-0234-044X"
+  year: 2026

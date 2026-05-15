@@ -1,0 +1,31 @@
+model	split	metric	label	support	predicted	precision	recall	f1	count
+tfidf_lr_c0.01_ng12_cwbalanced	test	per_class	yes	83	86	0.627906976744186	0.6506024096385542	0.6390532544378699	
+tfidf_lr_c0.01_ng12_cwbalanced	test	per_class	no	50	61	0.4426229508196721	0.54	0.48648648648648646	
+tfidf_lr_c0.01_ng12_cwbalanced	test	per_class	maybe	17	3	0.0	0.0	0.0	
+tfidf_lr_c0.01_ng12_cwbalanced	test	confusion	yes->yes						54
+tfidf_lr_c0.01_ng12_cwbalanced	test	confusion	yes->no						27
+tfidf_lr_c0.01_ng12_cwbalanced	test	confusion	yes->maybe						2
+tfidf_lr_c0.01_ng12_cwbalanced	test	confusion	no->yes						22
+tfidf_lr_c0.01_ng12_cwbalanced	test	confusion	no->no						27
+tfidf_lr_c0.01_ng12_cwbalanced	test	confusion	no->maybe						1
+tfidf_lr_c0.01_ng12_cwbalanced	test	confusion	maybe->yes						10
+tfidf_lr_c0.01_ng12_cwbalanced	test	confusion	maybe->no						7
+tfidf_lr_c0.01_ng12_cwbalanced	test	confusion	maybe->maybe						0
+tfidf_lr_c0.01_ng12_cwbalanced	test	distribution	yes	83	86				
+tfidf_lr_c0.01_ng12_cwbalanced	test	distribution	no	50	61				
+tfidf_lr_c0.01_ng12_cwbalanced	test	distribution	maybe	17	3				
+tfidf_lr_c0.01_ng12_cwbalanced	val	per_class	yes	83	87	0.5977011494252874	0.6265060240963856	0.611764705882353	
+tfidf_lr_c0.01_ng12_cwbalanced	val	per_class	no	51	60	0.38333333333333336	0.45098039215686275	0.41441441441441446	
+tfidf_lr_c0.01_ng12_cwbalanced	val	per_class	maybe	16	3	0.3333333333333333	0.0625	0.10526315789473684	
+tfidf_lr_c0.01_ng12_cwbalanced	val	confusion	yes->yes						52
+tfidf_lr_c0.01_ng12_cwbalanced	val	confusion	yes->no						31
+tfidf_lr_c0.01_ng12_cwbalanced	val	confusion	yes->maybe						0
+tfidf_lr_c0.01_ng12_cwbalanced	val	confusion	no->yes						26
+tfidf_lr_c0.01_ng12_cwbalanced	val	confusion	no->no						23
+tfidf_lr_c0.01_ng12_cwbalanced	val	confusion	no->maybe						2
+tfidf_lr_c0.01_ng12_cwbalanced	val	confusion	maybe->yes						9
+tfidf_lr_c0.01_ng12_cwbalanced	val	confusion	maybe->no						6
+tfidf_lr_c0.01_ng12_cwbalanced	val	confusion	maybe->maybe						1
+tfidf_lr_c0.01_ng12_cwbalanced	val	distribution	yes	83	87				
+tfidf_lr_c0.01_ng12_cwbalanced	val	distribution	no	51	60				
+tfidf_lr_c0.01_ng12_cwbalanced	val	distribution	maybe	16	3				

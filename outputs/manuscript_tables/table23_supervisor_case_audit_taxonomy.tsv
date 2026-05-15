@@ -1,0 +1,7 @@
+agent_effect_category	n_cases	main_text_n	supplement_only_n	exclude_n	high_confidence_n	label_ambiguous_or_uncertain_n	safe_interpretation
+corrected_yes_collapse	13	4	9	0	9	1	Supports a no-class recovery/class-behavior shift relative to random-primary yes-collapse; does not establish improved biomedical reasoning.
+overcorrected_yes	12	2	10	0	8	3	Shows a potential harm of the auxiliary objective: clear or qualified yes examples can be shifted toward no.
+maybe_unresolved	15	1	8	6	8	7	Shows unresolved rare/qualified-class behavior and motivates cautious maybe-class claims.
+both_wrong_or_ambiguous	10	1	6	3	7	3	Shows residual failure or label/abstract ambiguity rather than agent-specific improvement.
+no_meaningful_change	8	0	8	0	4	3	Provides behavioral controls where the agent did not materially change the claim interpretation.
+increased_instability	2	0	1	1	1	1	Supports the repeated-seed guardrail because individual examples can change across seeds.

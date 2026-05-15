@@ -1,0 +1,25 @@
+{
+  "name": "prospective_aux_weight_0p02_20260506",
+  "group": "prospective",
+  "source_commit": "random_primary_backbone_7147e14",
+  "description": "Prospective hypothesis-first validation-only run: random primary backbone with weaker delayed class-balanced auxiliary objective (QA_AUX_WEIGHT=0.02).",
+  "hyperparameters": {
+    "ASPECT_RATIO": 64,
+    "HEAD_DIM": 128,
+    "WINDOW_PATTERN": "L",
+    "TOTAL_BATCH_SIZE": 65536,
+    "EMBEDDING_LR": 0.65,
+    "UNEMBEDDING_LR": 0.002,
+    "MATRIX_LR": 0.045,
+    "SCALAR_LR": 0.5,
+    "WEIGHT_DECAY": 0.15,
+    "WARMUP_RATIO": 0.12,
+    "WARMDOWN_RATIO": 0.45,
+    "FINAL_LR_FRAC": 0.0,
+    "DEPTH": 5,
+    "DEVICE_BATCH_SIZE": 16,
+    "QA_AUX_WEIGHT": 0.02,
+    "QA_AUX_BATCH_SIZE": 4,
+    "QA_AUX_START_PROGRESS": 0.5
+  }
+}

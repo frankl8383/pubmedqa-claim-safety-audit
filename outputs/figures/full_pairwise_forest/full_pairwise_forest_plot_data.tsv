@@ -1,0 +1,21 @@
+comparison	comparison_label	metric	metric_label	interpretation	diff	ci_low	ci_high	p_two_sided_sign	n_examples	n_bootstrap
+Agent auxiliary - Random primary	Random primary	macro_f1	Macro-F1	Higher is better	0.0718030997660233	0.0315696441890098	0.1090118194306356	0.0008	150	10000
+Agent auxiliary - Random macro-F1 best	Random macro-F1 best	macro_f1	Macro-F1	Higher is better	0.0178543838009055	-0.0206843903097844	0.0549275647780045	0.3488	150	10000
+Agent auxiliary - Manual baseline	Manual baseline	macro_f1	Macro-F1	Higher is better	0.0185992378514426	-0.0186783341463334	0.0563044599416862	0.329	150	10000
+Agent auxiliary - TF-IDF LR	TF-IDF LR	macro_f1	Macro-F1	Higher is better	-0.0480870524140374	-0.1404059783330736	0.0304988832531338	0.283	150	10000
+Agent auxiliary - Frozen BiomedBERT	Frozen BiomedBERT	macro_f1	Macro-F1	Higher is better	-0.1074687834675952	-0.1938415751435396	-0.0234769725020948	0.0106	150	10000
+Agent auxiliary - Random primary	Random primary	f1_no	F1-no	Higher is better	0.292545447971744	0.2025337794215715	0.3716481686663184	0.0	150	10000
+Agent auxiliary - Random macro-F1 best	Random macro-F1 best	f1_no	F1-no	Higher is better	0.0898799851483617	0.0083925172023895	0.1693014230820635	0.0304	150	10000
+Agent auxiliary - Manual baseline	Manual baseline	f1_no	F1-no	Higher is better	0.0880535411112934	0.0114994375811744	0.1624971958483277	0.0256	150	10000
+Agent auxiliary - TF-IDF LR	TF-IDF LR	f1_no	F1-no	Higher is better	-0.0596606222671131	-0.1709014473765644	0.0516532314533643	0.2864	150	10000
+Agent auxiliary - Frozen BiomedBERT	Frozen BiomedBERT	f1_no	F1-no	Higher is better	-0.1809604935669845	-0.2883234296488816	-0.0755781238627239	0.0008	150	10000
+Agent auxiliary - Random primary	Random primary	accuracy	Accuracy	Higher is better	-0.0586666666666666	-0.1186666666666665	0.0013333333333333	0.0594	150	10000
+Agent auxiliary - Random macro-F1 best	Random macro-F1 best	accuracy	Accuracy	Higher is better	-0.0293333333333334	-0.0786666666666666	0.0186666666666667	0.2448	150	10000
+Agent auxiliary - Manual baseline	Manual baseline	accuracy	Accuracy	Higher is better	-0.0093333333333334	-0.0546666666666667	0.036	0.718	150	10000
+Agent auxiliary - TF-IDF LR	TF-IDF LR	accuracy	Accuracy	Higher is better	-0.0106666666666667	-0.0866666666666666	0.0639999999999999	0.795	150	10000
+Agent auxiliary - Frozen BiomedBERT	Frozen BiomedBERT	accuracy	Accuracy	Higher is better	-0.0306666666666666	-0.1106666666666667	0.0506666666666666	0.4656	150	10000
+Agent auxiliary - Random primary	Random primary	brier	Brier	Lower is better; positive is worse for agent	0.0880694785240645	0.0488327308390303	0.1286488805440473	0.0	150	10000
+Agent auxiliary - Random macro-F1 best	Random macro-F1 best	brier	Brier	Lower is better; positive is worse for agent	0.0304374300315852	-0.0129295719992193	0.0745880964899463	0.1722	150	10000
+Agent auxiliary - Manual baseline	Manual baseline	brier	Brier	Lower is better; positive is worse for agent	0.017583918137199	-0.0266504919188599	0.0617484621994102	0.4344	150	10000
+Agent auxiliary - TF-IDF LR	TF-IDF LR	brier	Brier	Lower is better; positive is worse for agent	-0.0121747921154029	-0.0731164656949698	0.0493844813201693	0.679	150	10000
+Agent auxiliary - Frozen BiomedBERT	Frozen BiomedBERT	brier	Brier	Lower is better; positive is worse for agent	-0.1568129670494932	-0.2827030918299251	-0.0319183994492165	0.0116	150	10000

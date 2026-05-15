@@ -1,0 +1,4 @@
+metric	display_name	seed_level_n	seed_level_spearman	seed_level_pearson	config_mean_n	config_mean_spearman
+pubmedqa_acc	Accuracy	35	-0.46327577862855457	-0.42094536966790325	7	-0.642857142857143
+pubmedqa_macro_f1	Macro-F1	35	0.38923552108371845	0.40243095897625536	7	0.8571428571428573
+pubmedqa_brier	Brier	35	0.5588235294117647	0.5175688756180965	7	0.642857142857143

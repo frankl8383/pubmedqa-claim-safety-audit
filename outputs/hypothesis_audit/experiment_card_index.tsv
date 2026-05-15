@@ -1,0 +1,5 @@
+config_name	display_name	group	card_path
+agent_aux_a20f5b7	Agent auxiliary	agent	outputs/experiment_cards/agent_aux_a20f5b7.md
+random_primary_best_7147e14	Random primary BPB-selected control	random	outputs/experiment_cards/random_primary_best_7147e14.md
+random_macro_f1_best_8a1209b	Random macro-F1 best control	random	outputs/experiment_cards/random_macro_f1_best_8a1209b.md
+manual_baseline_f1664dd	Manual baseline	manual	outputs/experiment_cards/manual_baseline_f1664dd.md

@@ -1,0 +1,301 @@
+task	split	left	left_display	right	right_display	metric	diff_left_minus_right	ci_low	ci_high	bootstrap_sd	p_two_sided_sign	n_examples	n_bootstrap
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_primary_best_7147e14	Random primary	accuracy	-0.058666666666666645	-0.12	0.0013333333333332988	0.030825563532003684	0.0564	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_primary_best_7147e14	Random primary	macro_f1	0.07180309976602339	0.03095730654938271	0.10961675134403516	0.020017656466418288	0.0008	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_primary_best_7147e14	Random primary	brier	0.08806947852406488	0.04831680443731243	0.12880320369064846	0.0206175044392811	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_primary_best_7147e14	Random primary	precision_yes	0.010298946608392368	-0.023694325143347867	0.04371287349196086	0.017145210752575104	0.5452	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_primary_best_7147e14	Random primary	recall_yes	-0.29638554216867463	-0.35189873417721507	-0.24235294117647077	0.02818002391025016	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_primary_best_7147e14	Random primary	f1_yes	-0.0938028153403404	-0.13790638770254382	-0.05201844731845477	0.02198800342280626	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_primary_best_7147e14	Random primary	precision_no	0.08511293446598239	-0.09392745467790764	0.27294955536046267	0.09359697030295966	0.336	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_primary_best_7147e14	Random primary	recall_no	0.3058823529411765	0.22857142857142854	0.3824599542334095	0.03944338060021604	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_primary_best_7147e14	Random primary	f1_no	0.29254544797174403	0.2026140846354391	0.37378494747427693	0.043220638765833014	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_primary_best_7147e14	Random primary	precision_maybe	0.025	0.0	0.08571428571428572	0.025533955078020438	0.739	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_primary_best_7147e14	Random primary	recall_maybe	0.0125	0.0	0.042105263157894736	0.012387225558758904	0.739	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_primary_best_7147e14	Random primary	f1_maybe	0.016666666666666666	0.0	0.05161290322580645	0.01543462650613986	0.739	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_macro_f1_best_8a1209b	Random macro-F1 best	accuracy	-0.029333333333333433	-0.07866666666666666	0.01866666666666661	0.024676508030116655	0.234	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_macro_f1_best_8a1209b	Random macro-F1 best	macro_f1	0.017854383800905538	-0.02029431084850156	0.05503775628812012	0.019179704870507013	0.3576	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_macro_f1_best_8a1209b	Random macro-F1 best	brier	0.030437430031585055	-0.012844513933026014	0.07396914981338329	0.02214002533601533	0.1658	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_macro_f1_best_8a1209b	Random macro-F1 best	precision_yes	0.0030952921386779852	-0.029842523026711542	0.03570104853963172	0.016709005384504722	0.841	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_macro_f1_best_8a1209b	Random macro-F1 best	recall_yes	-0.13975903614457819	-0.20500000000000007	-0.07674418604651168	0.03239922663317088	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_macro_f1_best_8a1209b	Random macro-F1 best	f1_yes	-0.0529835004123117	-0.09603100197451395	-0.011619867153195471	0.02148476336273561	0.0134	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_macro_f1_best_8a1209b	Random macro-F1 best	precision_no	-0.0007749769057999734	-0.10153939941760988	0.10027487159358763	0.051520931643162314	0.9796	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_macro_f1_best_8a1209b	Random macro-F1 best	recall_no	0.1372549019607843	0.05769067796610166	0.21538461538461542	0.03986107309822571	0.0012	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_macro_f1_best_8a1209b	Random macro-F1 best	f1_no	0.08987998514836171	0.008165687630973239	0.16958309613647818	0.04119825425342697	0.0312	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_macro_f1_best_8a1209b	Random macro-F1 best	precision_maybe	0.025	0.0	0.08571428571428572	0.02534694611446048	0.7322	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_macro_f1_best_8a1209b	Random macro-F1 best	recall_maybe	0.0125	0.0	0.04285714285714286	0.012606928487697669	0.7322	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_macro_f1_best_8a1209b	Random macro-F1 best	f1_maybe	0.016666666666666666	0.0	0.05217391304347826	0.015584879998761009	0.7322	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_brier_best_8dc23be	Random Brier best	accuracy	-0.058666666666666645	-0.11199999999999999	-0.005333333333333355	0.027133802129316684	0.0284	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_brier_best_8dc23be	Random Brier best	macro_f1	0.04373216514674544	0.009048284742694767	0.07756732845370744	0.017696373670841602	0.0162	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_brier_best_8dc23be	Random Brier best	brier	0.08471673981102879	0.04716423713599108	0.12289013059210485	0.01920661393805864	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_brier_best_8dc23be	Random Brier best	precision_yes	0.004646701135188058	-0.02762213222370448	0.03621575993813187	0.01623023050476333	0.7796	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_brier_best_8dc23be	Random Brier best	recall_yes	-0.2602409638554217	-0.31750367647058836	-0.20658986175115207	0.028430138739941702	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_brier_best_8dc23be	Random Brier best	f1_yes	-0.08842527649396814	-0.13008240694728643	-0.04908252241204425	0.02072886477205344	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_brier_best_8dc23be	Random Brier best	precision_no	-0.18257937322632528	-0.291073387856	0.10586300242637	0.11072368249784008	0.4106	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_brier_best_8dc23be	Random Brier best	recall_no	0.24705882352941178	0.1789473684210526	0.3153846153846154	0.03462854875173482	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_brier_best_8dc23be	Random Brier best	f1_no	0.20295510526753816	0.1277319562342665	0.27213682109092	0.037300444549016924	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_brier_best_8dc23be	Random Brier best	precision_maybe	0.025	0.0	0.08	0.02503831791272493	0.723	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_brier_best_8dc23be	Random Brier best	recall_maybe	0.0125	0.0	0.042105263157894736	0.012552808364040716	0.723	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_brier_best_8dc23be	Random Brier best	f1_maybe	0.016666666666666666	0.0	0.050040322580644586	0.015376962036354067	0.723	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_accuracy_best_7e73835	Random accuracy best	accuracy	-0.05066666666666664	-0.11199999999999988	0.00933333333333336	0.030722621687347747	0.1034	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_accuracy_best_7e73835	Random accuracy best	macro_f1	0.08084396860960114	0.04385797978977008	0.11475692300358599	0.018033950529275453	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_accuracy_best_7e73835	Random accuracy best	brier	0.08093478199710957	0.043456441593296556	0.11884699752501254	0.019460456172210358	0.0002	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_accuracy_best_7e73835	Random accuracy best	precision_yes	0.014402453838716966	-0.01851486144574478	0.04917538359318504	0.017092283720709	0.379	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_accuracy_best_7e73835	Random accuracy best	recall_yes	-0.28915662650602414	-0.34750000000000003	-0.2302301688435806	0.030404785906720494	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_accuracy_best_7e73835	Random accuracy best	f1_yes	-0.08854956993431695	-0.1321907531325262	-0.044607651660281855	0.022522122160417615	0.0002	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_accuracy_best_7e73835	Random accuracy best	precision_no	0.2501129344659824	0.12816982376283845	0.3717653055070524	0.06202142553298402	0.0002	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_accuracy_best_7e73835	Random accuracy best	recall_no	0.3176470588235294	0.24864210985178728	0.3869565217391304	0.03512113756015689	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_accuracy_best_7e73835	Random accuracy best	f1_no	0.31441480909645386	0.23993200548907112	0.3799703643256891	0.03597013037169544	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_accuracy_best_7e73835	Random accuracy best	precision_maybe	0.025	0.0	0.08571428571428572	0.02532158577289089	0.7268	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_accuracy_best_7e73835	Random accuracy best	recall_maybe	0.0125	0.0	0.042105263157894736	0.01254621895166605	0.7268	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	random_accuracy_best_7e73835	Random accuracy best	f1_maybe	0.016666666666666666	0.0	0.05161290322580646	0.015548925791989755	0.7268	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_baseline_f1664dd	Manual baseline	accuracy	-0.009333333333333416	-0.054666666666666586	0.03600000000000009	0.023337675282062247	0.6992	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_baseline_f1664dd	Manual baseline	macro_f1	0.018599237851442685	-0.019035777898407987	0.0559693195527983	0.01925158060241362	0.3306	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_baseline_f1664dd	Manual baseline	brier	0.017583918137199173	-0.02689154094109198	0.06205418770361286	0.022895679963995455	0.4454	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_baseline_f1664dd	Manual baseline	precision_yes	0.015246673694597535	-0.01886602510228845	0.05135704809500944	0.01795118752923649	0.3992	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_baseline_f1664dd	Manual baseline	recall_yes	-0.09397590361445785	-0.15476190476190477	-0.03170731707317075	0.031331771648098146	0.0036	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_baseline_f1664dd	Manual baseline	f1_yes	-0.02892249422363191	-0.0702031963230581	0.013584515083733296	0.021371323398769317	0.178	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_baseline_f1664dd	Manual baseline	precision_no	0.035833286039746226	-0.055098682383390156	0.12499576228320192	0.045696956001368895	0.4274	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_baseline_f1664dd	Manual baseline	recall_no	0.1254901960784314	0.046808510638297884	0.20351033834586466	0.03980674352069888	0.0024	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_baseline_f1664dd	Manual baseline	f1_no	0.08805354111129343	0.011258644664108279	0.1608692709548383	0.03834187845178767	0.0232	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_baseline_f1664dd	Manual baseline	precision_maybe	-0.025	-0.15	0.06666666666666667	0.05420827863415638	0.8756	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_baseline_f1664dd	Manual baseline	recall_maybe	0.0	-0.03529411764705882	0.03636363636363636	0.018176190832768505	1.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_baseline_f1664dd	Manual baseline	f1_maybe	-0.003333333333333334	-0.05161887694145758	0.04444444444444444	0.02441256766340739	0.9922	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_warmup10_da0044c	Manual warmup	accuracy	-0.01733333333333331	-0.064	0.029333333333333322	0.023858826294762714	0.4856	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_warmup10_da0044c	Manual warmup	macro_f1	0.019228234013906276	-0.017635103369225354	0.05515448698925466	0.018842511288899327	0.3168	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_warmup10_da0044c	Manual warmup	brier	0.012248393435417726	-0.03243594547804417	0.05749954223070734	0.02300213067058941	0.598	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_warmup10_da0044c	Manual warmup	precision_yes	-0.0005870069940041578	-0.037801555444521066	0.036817266466752555	0.01894329155029976	0.9716	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_warmup10_da0044c	Manual warmup	recall_yes	-0.09879518072289162	-0.15949442435201935	-0.03750000000000008	0.031300967307291865	0.0006	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_warmup10_da0044c	Manual warmup	f1_yes	-0.04067422485913552	-0.0832763162694238	0.001404753119642064	0.021723394952835335	0.0622	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_warmup10_da0044c	Manual warmup	precision_no	0.054669816929841575	-0.031182667796171157	0.14324314831394008	0.04454952471819703	0.214	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_warmup10_da0044c	Manual warmup	recall_no	0.10588235294117643	0.020330508474576292	0.19047619047619047	0.04340751937084634	0.0198	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_warmup10_da0044c	Manual warmup	f1_no	0.08169226023418791	0.0031297618999688213	0.15905264814937092	0.040075516612540614	0.0442	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_warmup10_da0044c	Manual warmup	precision_maybe	0.025	0.0	0.08339285714285628	0.025218478265659244	0.7352	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_warmup10_da0044c	Manual warmup	recall_maybe	0.0125	0.0	0.042105263157894736	0.012535699866431941	0.7352	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	manual_warmup10_da0044c	Manual warmup	f1_maybe	0.016666666666666666	0.0	0.05161290322580645	0.015445038351356983	0.7352	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	tfidf_lr_selected	TF-IDF LR	accuracy	-0.010666666666666713	-0.08533333333333337	0.064	0.03809431553276438	0.7816	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	tfidf_lr_selected	TF-IDF LR	macro_f1	-0.048087052414037545	-0.13764554670187554	0.029314568375031713	0.04356071676345685	0.2792	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	tfidf_lr_selected	TF-IDF LR	brier	-0.012174792115402733	-0.07179662668297059	0.04923593230663239	0.030998228164482125	0.7158	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	tfidf_lr_selected	TF-IDF LR	precision_yes	-0.03140079535735951	-0.0978513820970461	0.032883059615900885	0.03372387549721278	0.345	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	tfidf_lr_selected	TF-IDF LR	recall_yes	0.05783132530120483	-0.04235294117647059	0.15750367647058816	0.05106966330737646	0.2754	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	tfidf_lr_selected	TF-IDF LR	f1_yes	0.00399595625307092	-0.06843605335939403	0.07770606579437439	0.03731720244767424	0.9266	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	tfidf_lr_selected	TF-IDF LR	precision_no	0.008446267799315677	-0.09701251146420709	0.11319546019623505	0.05385467654752501	0.8798	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	tfidf_lr_selected	TF-IDF LR	recall_no	-0.10980392156862745	-0.24888888888888888	0.025925925925925963	0.07018035345474433	0.1186	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	tfidf_lr_selected	TF-IDF LR	f1_no	-0.05966062226711316	-0.169918084350293	0.05208534423530476	0.05605038818114354	0.282	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	tfidf_lr_selected	TF-IDF LR	precision_maybe	-0.3083333333333333	-1.0	0.06666666666666667	0.30913492593084047	0.7402	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	tfidf_lr_selected	TF-IDF LR	recall_maybe	-0.05	-0.2	0.03529411764705882	0.0647017326513845	0.7436	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	tfidf_lr_selected	TF-IDF LR	f1_maybe	-0.08859649122807017	-0.3	0.04285714285714286	0.09793347478535759	0.7402	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	frozen_biomedbert	Frozen BiomedBERT	accuracy	-0.03066666666666662	-0.11199999999999999	0.05066666666666669	0.041499746242603545	0.473	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	frozen_biomedbert	Frozen BiomedBERT	macro_f1	-0.10746878346759531	-0.19368853219787083	-0.023991505414187677	0.04366077847134175	0.0088	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	frozen_biomedbert	Frozen BiomedBERT	brier	-0.15681296704949288	-0.28210894924853	-0.031781116149445725	0.06369096322456005	0.012	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	frozen_biomedbert	Frozen BiomedBERT	precision_yes	-0.0815869698757341	-0.1685063611170004	0.0027607172565972627	0.04350608543581721	0.0592	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	frozen_biomedbert	Frozen BiomedBERT	recall_yes	0.13012048192771086	0.026312656641603985	0.23529784065524945	0.05314082069326142	0.0142	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	frozen_biomedbert	Frozen BiomedBERT	f1_yes	0.018358064732826418	-0.06561308620629999	0.10609059061190744	0.04348163502951215	0.676	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	frozen_biomedbert	Frozen BiomedBERT	precision_no	-0.10002367755587555	-0.2026000138549433	-0.0006755862419328684	0.05248340806037715	0.0488	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	frozen_biomedbert	Frozen BiomedBERT	recall_no	-0.24705882352941178	-0.38182828282828285	-0.11249999999999999	0.06927849214100044	0.0008	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	frozen_biomedbert	Frozen BiomedBERT	f1_no	-0.18096049356698451	-0.2844393537750823	-0.07528661721521235	0.05323141602477376	0.0012	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	frozen_biomedbert	Frozen BiomedBERT	precision_maybe	-0.14166666666666666	-0.3371555812608444	0.025	0.09367755317083487	0.1268	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	frozen_biomedbert	Frozen BiomedBERT	recall_maybe	-0.175	-0.4	0.014285714285714285	0.10388211045423748	0.1006	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	frozen_biomedbert	Frozen BiomedBERT	f1_maybe	-0.15980392156862747	-0.34469211822660095	0.017411067193675606	0.09167845494394865	0.103	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	majority_train	Majority	accuracy	-0.05733333333333335	-0.1186666666666667	0.005333333333333357	0.03194933782017404	0.0762	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	majority_train	Majority	macro_f1	0.09157825633935371	0.05435411538845522	0.12672933842673686	0.018546946166567133	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	majority_train	Majority	brier	-0.2401663007496858	-0.3709365765121587	-0.11273699045150903	0.06652223021994415	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	majority_train	Majority	precision_yes	0.012967020734594548	-0.020946191342625712	0.046675900156974044	0.017093709154122456	0.439	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	majority_train	Majority	recall_yes	-0.3156626506024096	-0.371765460030166	-0.2613628787878789	0.02825873182206732	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	majority_train	Majority	f1_yes	-0.09668568979590664	-0.14060943327857672	-0.05398426917113218	0.02207192518506122	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	majority_train	Majority	precision_no	0.39177960113264904	0.28745224488155524	0.4991524775578875	0.054748640725945985	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	majority_train	Majority	recall_no	0.3411764705882353	0.26956521739130435	0.41509433962264153	0.03744121194030771	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	majority_train	Majority	f1_no	0.3547537921473013	0.277068533833629	0.4249579747684224	0.038116752556380286	0.0	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	majority_train	Majority	precision_maybe	0.025	0.0	0.08571428571428572	0.024869589188207426	0.726	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	majority_train	Majority	recall_maybe	0.0125	0.0	0.04	0.012387480664344452	0.726	150	10000
+pubmedqa	val	agent_aux_a20f5b7	Agent auxiliary	majority_train	Majority	f1_maybe	0.016666666666666666	0.0	0.05	0.01525452892271552	0.726	150	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	majority_train	Majority	accuracy	0.0013333333333332975	-0.010666666666666602	0.013333333333333308	0.006040022018350079	0.9334	150	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	majority_train	Majority	macro_f1	0.019775156573330316	0.004631489018086322	0.035787067685217853	0.00801718803438519	0.009	150	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	majority_train	Majority	brier	-0.3282357792737507	-0.4437796027089715	-0.2138317626424752	0.05851916673870389	0.0	150	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	majority_train	Majority	precision_yes	0.00266807412620218	-0.003448277415221326	0.009303636553578715	0.0032185942938921033	0.4106	150	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	majority_train	Majority	recall_yes	-0.01927710843373498	-0.03261539606908866	-0.007499999999999951	0.00645067988181287	0.0	150	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	majority_train	Majority	f1_yes	-0.002882874455566231	-0.010605910132546087	0.004475699499204257	0.003842111370936878	0.4416	150	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	majority_train	Majority	precision_no	0.30666666666666664	0.13333333333333333	0.475	0.08496997700755624	0.003	150	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	majority_train	Majority	recall_no	0.03529411764705882	0.011764705882352941	0.06296296296296296	0.013255379023390952	0.003	150	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	majority_train	Majority	f1_no	0.06220834417555728	0.02140182965991097	0.10478624578082904	0.021617448059845185	0.003	150	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	majority_train	Majority	precision_maybe	0.0	0.0	0.0	0.0	1.0	150	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	majority_train	Majority	recall_maybe	0.0	0.0	0.0	0.0	1.0	150	10000
+pubmedqa	val	random_primary_best_7147e14	Random primary	majority_train	Majority	f1_maybe	0.0	0.0	0.0	0.0	1.0	150	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	majority_train	Majority	accuracy	-0.027999999999999914	-0.07333333333333336	0.01733333333333331	0.02297019951158709	0.223	150	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	majority_train	Majority	macro_f1	0.07372387253844817	0.04031524945225898	0.10613677247211639	0.016965682868581564	0.0	150	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	majority_train	Majority	brier	-0.27060373078127087	-0.3833355901014544	-0.16183543053139265	0.05634825894498531	0.0	150	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	majority_train	Majority	precision_yes	0.009871728595916562	-0.01345821167196169	0.0335361957701285	0.011946279998605898	0.4214	150	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	majority_train	Majority	recall_yes	-0.17590361445783143	-0.22597402597402594	-0.1298962377828356	0.024343340342669176	0.0	150	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	majority_train	Majority	f1_yes	-0.043702189383594936	-0.07548284974678442	-0.013459872086658182	0.015721269402081618	0.0028	150	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	majority_train	Majority	precision_no	0.392554578038449	0.2679715169614551	0.5186531655225017	0.06417092441235744	0.0	150	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	majority_train	Majority	recall_no	0.203921568627451	0.13817965367965368	0.27555555555555555	0.03483281278805226	0.0	150	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	majority_train	Majority	f1_no	0.2648738069989396	0.1826358810782566	0.34299209254797497	0.04080282462736205	0.0	150	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	majority_train	Majority	precision_maybe	0.0	0.0	0.0	0.0	1.0	150	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	majority_train	Majority	recall_maybe	0.0	0.0	0.0	0.0	1.0	150	10000
+pubmedqa	val	random_macro_f1_best_8a1209b	Random macro-F1 best	majority_train	Majority	f1_maybe	0.0	0.0	0.0	0.0	1.0	150	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	majority_train	Majority	accuracy	0.0013333333333332975	-0.021333333333333315	0.023999999999999966	0.011420985561578579	0.9392	150	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	majority_train	Majority	macro_f1	0.04784609119260827	0.02500746164937954	0.06995821502599761	0.011438604437009815	0.0	150	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	majority_train	Majority	brier	-0.3248830405607146	-0.44385995494056313	-0.2054287721247685	0.06020592476618431	0.0	150	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	majority_train	Majority	precision_yes	0.00832031959940649	-0.0028011062018789856	0.019946883208961572	0.005758392602767595	0.1404	150	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	majority_train	Majority	recall_yes	-0.055421686746987886	-0.08205555555555559	-0.03157894736842104	0.012986265013297528	0.0	150	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	majority_train	Majority	f1_yes	-0.008260413301938496	-0.023315258082958125	0.006112944248230986	0.007599033599695838	0.2694	150	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	majority_train	Majority	precision_no	0.5743589743589743	0.26287800434859254	0.7039482853747557	0.12082186116587063	0.0	150	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	majority_train	Majority	recall_no	0.09411764705882351	0.05600000000000001	0.13478260869565217	0.020155165996715203	0.0	150	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	majority_train	Majority	f1_no	0.15179868687976314	0.09105545962396294	0.20792936998240466	0.029810447149740123	0.0	150	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	majority_train	Majority	precision_maybe	0.0	0.0	0.0	0.0	1.0	150	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	majority_train	Majority	recall_maybe	0.0	0.0	0.0	0.0	1.0	150	10000
+pubmedqa	val	random_brier_best_8dc23be	Random Brier best	majority_train	Majority	f1_maybe	0.0	0.0	0.0	0.0	1.0	150	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	majority_train	Majority	accuracy	-0.00666666666666671	-0.017333333333333423	0.0040000000000000036	0.005549825922705393	0.2692	150	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	majority_train	Majority	macro_f1	0.010734287729752573	0.0004818647098371085	0.02205785546997915	0.005633752308082428	0.0384	150	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	majority_train	Majority	brier	-0.3211010827467954	-0.4375549212366125	-0.20403017113522304	0.060584867153576104	0.0	150	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	majority_train	Majority	precision_yes	-0.0014354331041224189	-0.006942359038595548	0.0040836187354901686	0.002792952864305346	0.612	150	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	majority_train	Majority	recall_yes	-0.026506024096385472	-0.04222222222222206	-0.012658227848101333	0.0075047583484561375	0.0	150	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	majority_train	Majority	f1_yes	-0.008136119861589686	-0.016337641776880123	-0.0005313514408701842	0.003991297377470116	0.035	150	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	majority_train	Majority	precision_no	0.14166666666666666	0.05	0.24646969696969687	0.05053008481903327	0.0034	150	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	majority_train	Majority	recall_no	0.023529411764705882	0.007692307692307693	0.04285714285714286	0.009167950201633072	0.0034	150	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	majority_train	Majority	f1_no	0.04033898305084745	0.013559322033898305	0.07035330261136713	0.01481166454713319	0.0034	150	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	majority_train	Majority	precision_maybe	0.0	0.0	0.0	0.0	1.0	150	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	majority_train	Majority	recall_maybe	0.0	0.0	0.0	0.0	1.0	150	10000
+pubmedqa	val	random_accuracy_best_7e73835	Random accuracy best	majority_train	Majority	f1_maybe	0.0	0.0	0.0	0.0	1.0	150	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	majority_train	Majority	accuracy	-0.04799999999999993	-0.09466666666666668	-0.0026666666666666505	0.023553384910564037	0.0406	150	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	majority_train	Majority	macro_f1	0.07297901848791102	0.03988318443192316	0.10370895502586588	0.016297089435645666	0.0	150	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	majority_train	Majority	brier	-0.257750218886885	-0.3735597965124792	-0.14341740790893429	0.05896496288599192	0.0	150	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	majority_train	Majority	precision_yes	-0.002279652960002987	-0.02433476998262255	0.01945458819839261	0.011167436021849777	0.8408	150	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	majority_train	Majority	recall_yes	-0.22168674698795177	-0.2701298701298701	-0.17619047619047623	0.023839959266146928	0.0	150	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	majority_train	Majority	f1_yes	-0.06776319557227473	-0.09948564931612014	-0.03759317557614032	0.01585672155794475	0.0	150	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	majority_train	Majority	precision_no	0.3559463150929028	0.2466015207756031	0.46927238980719294	0.05713864181763865	0.0	150	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	majority_train	Majority	recall_no	0.2156862745098039	0.15925925925925927	0.2755555555555555	0.029524100719862167	0.0	150	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	majority_train	Majority	f1_no	0.26670025103600786	0.19621251352919097	0.33173077369501425	0.03437028022622979	0.0	150	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	majority_train	Majority	precision_maybe	0.05	0.0	0.2	0.0491378415872831	0.7376	150	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	majority_train	Majority	recall_maybe	0.0125	0.0	0.042105263157894736	0.012345774289884894	0.7376	150	10000
+pubmedqa	val	manual_baseline_f1664dd	Manual baseline	majority_train	Majority	f1_maybe	0.02	0.0	0.06	0.01808210647019305	0.7376	150	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	majority_train	Majority	accuracy	-0.040000000000000036	-0.08400000000000007	0.005333333333333357	0.023050223592279942	0.0868	150	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	majority_train	Majority	macro_f1	0.07235002232544743	0.04513431238678467	0.09866462845808129	0.013579135506894782	0.0	150	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	majority_train	Majority	brier	-0.25241469418510354	-0.36879614698859176	-0.1400726794723205	0.05822191971843786	0.0	150	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	majority_train	Majority	precision_yes	0.013554027728598705	-0.008636428817299847	0.035937976376775836	0.011388778513863305	0.236	150	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	majority_train	Majority	recall_yes	-0.216867469879518	-0.26279069767441854	-0.17316730611126346	0.022961860155127235	0.0	150	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	majority_train	Majority	f1_yes	-0.056011464936771116	-0.08749317999339887	-0.025279976481797427	0.015766985032310298	0.0	150	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	majority_train	Majority	precision_no	0.33710978420280746	0.24276728959369306	0.43875629188686793	0.050491533051177	0.0	150	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	majority_train	Majority	recall_no	0.23529411764705888	0.1829787234042553	0.28888888888888886	0.027044147196672617	0.0	150	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	majority_train	Majority	f1_no	0.2730615319131134	0.2117622162760554	0.3291836034973041	0.029817629823081875	0.0	150	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	majority_train	Majority	precision_maybe	0.0	0.0	0.0	0.0	1.0	150	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	majority_train	Majority	recall_maybe	0.0	0.0	0.0	0.0	1.0	150	10000
+pubmedqa	val	manual_warmup10_da0044c	Manual warmup	majority_train	Majority	f1_maybe	0.0	0.0	0.0	0.0	1.0	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	agent_aux_a20f5b7	Agent auxiliary	accuracy	0.03066666666666662	-0.051999999999999935	0.11199999999999993	0.041858126696329136	0.4628	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	agent_aux_a20f5b7	Agent auxiliary	macro_f1	0.10746878346759531	0.02365003548326503	0.19374409918025393	0.04339152167393579	0.0108	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	agent_aux_a20f5b7	Agent auxiliary	brier	0.15681296704949288	0.031519309952119844	0.28384251883219874	0.06434954745822981	0.0168	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	agent_aux_a20f5b7	Agent auxiliary	precision_yes	0.0815869698757341	-0.004081916423649905	0.16893105494070065	0.043677374019453076	0.0622	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	agent_aux_a20f5b7	Agent auxiliary	recall_yes	-0.13012048192771086	-0.23595979423311225	-0.02784810126582271	0.053413174016335	0.0162	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	agent_aux_a20f5b7	Agent auxiliary	f1_yes	-0.018358064732826418	-0.1049584487184433	0.06567673988193679	0.043685422214096506	0.6798	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	agent_aux_a20f5b7	Agent auxiliary	precision_no	0.10002367755587555	-0.00398003477134633	0.20417112101096632	0.05306997206986313	0.0596	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	agent_aux_a20f5b7	Agent auxiliary	recall_no	0.24705882352941178	0.10943396226415092	0.38399999999999995	0.06937210895736037	0.0004	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	agent_aux_a20f5b7	Agent auxiliary	f1_no	0.18096049356698451	0.07387977445385754	0.2847376016488191	0.05382778244781111	0.0014	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	agent_aux_a20f5b7	Agent auxiliary	precision_maybe	0.14166666666666666	-0.025	0.34141414141414145	0.09375145288289612	0.1226	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	agent_aux_a20f5b7	Agent auxiliary	recall_maybe	0.175	-0.0125	0.4	0.10367625606748039	0.0952	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	agent_aux_a20f5b7	Agent auxiliary	f1_maybe	0.15980392156862747	-0.016666666666666666	0.3448275862068966	0.09130279669292804	0.097	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	random_primary_best_7147e14	Random primary	accuracy	-0.028000000000000025	-0.13333333333333341	0.07733333333333331	0.05382829589733069	0.621	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	random_primary_best_7147e14	Random primary	macro_f1	0.1792718832336187	0.0916844680802008	0.2673866580610878	0.04470969670701958	0.0	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	random_primary_best_7147e14	Random primary	brier	0.24488244557355776	0.11258329206348328	0.38343951486106487	0.06871779531431743	0.0002	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	random_primary_best_7147e14	Random primary	precision_yes	0.09188591648412647	0.007937597329259206	0.1761914221383828	0.04221796839324977	0.0306	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	random_primary_best_7147e14	Random primary	recall_yes	-0.4265060240963855	-0.5333333333333334	-0.32000000000000006	0.05476112507946544	0.0	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	random_primary_best_7147e14	Random primary	f1_yes	-0.11216088007316682	-0.206744730560641	-0.022385598643268244	0.04699499502774024	0.0128	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	random_primary_best_7147e14	Random primary	precision_no	0.18513661202185794	-0.002747536945812906	0.3752764767109029	0.09686767361976602	0.054	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	random_primary_best_7147e14	Random primary	recall_no	0.5529411764705883	0.41923076923076924	0.6863636363636364	0.06844198099106119	0.0	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	random_primary_best_7147e14	Random primary	f1_no	0.47350594153872855	0.35412732422655796	0.5817027774244887	0.058545274990126656	0.0	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	random_primary_best_7147e14	Random primary	precision_maybe	0.16666666666666666	0.0	0.35714285714285715	0.08954161895667266	0.0976	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	random_primary_best_7147e14	Random primary	recall_maybe	0.1875	0.0	0.4	0.10043301161496355	0.0976	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	random_primary_best_7147e14	Random primary	f1_maybe	0.17647058823529413	0.0	0.35	0.08730458937402813	0.0976	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	accuracy	-0.026666666666666727	-0.13999999999999996	0.08000000000000002	0.056085756566648985	0.67	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	macro_f1	0.19904703980694902	0.10997939080201342	0.2874440886027546	0.04537774637501416	0.0	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	brier	-0.08335333370019293	-0.28050896920275475	0.12051959755326716	0.102161950597387	0.4166	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	precision_yes	0.09455399061032865	0.008616724738676003	0.1779662245148612	0.043127516639694906	0.0336	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	recall_yes	-0.4457831325301205	-0.5542201414353064	-0.33766233766233766	0.05465224315986867	0.0	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	f1_yes	-0.11504375452873306	-0.21374847300260924	-0.023915680880895532	0.047829338272142474	0.0132	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	precision_no	0.4918032786885246	0.36231884057971014	0.6190476190476191	0.06515887172225555	0.0	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	recall_no	0.5882352941176471	0.45	0.7209397636294318	0.06955988166778178	0.0	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	f1_no	0.5357142857142858	0.41379310344827586	0.6415164742326104	0.05823629898453489	0.0	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	precision_maybe	0.16666666666666666	0.0	0.3637559808612423	0.09079503355091452	0.094	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	recall_maybe	0.1875	0.0	0.4117647058823529	0.10187453428447031	0.094	150	10000
+pubmedqa	val	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	f1_maybe	0.17647058823529413	0.0	0.358974358974359	0.08905622884739667	0.094	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	accuracy	-0.046666666666666634	-0.14	0.05333333333333329	0.04922676694094734	0.3702	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	macro_f1	0.13966530875339125	0.05767809201313038	0.23078532446666614	0.04430735275681875	0.0004	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	brier	-0.22799150863428308	-0.3877977756071681	-0.08063794225462255	0.08081059331458487	0.0044	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	precision_yes	0.04436781609195406	-0.023410947249007302	0.11333333333333329	0.034662910408619456	0.2092	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	recall_yes	-0.37349397590361444	-0.48051948051948057	-0.2692307692307693	0.05369006926539004	0.0	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	f1_yes	-0.10068164604897756	-0.18223989836004242	-0.022504542528430968	0.041111348512830555	0.0118	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	precision_no	0.38333333333333336	0.2615217391304348	0.509090909090909	0.06347976439635394	0.0	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	recall_no	0.45098039215686275	0.3136948529411765	0.5892857142857143	0.06960614372990104	0.0	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	f1_no	0.41441441441441446	0.2935556052808234	0.5238095238095237	0.059079212218798964	0.0	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	precision_maybe	0.3333333333333333	0.0	1.0	0.31093151050253703	0.7316	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	recall_maybe	0.0625	0.0	0.21052631578947367	0.06284724369871567	0.7316	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	f1_maybe	0.10526315789473684	0.0	0.3157894736842105	0.09583331287337668	0.7316	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	agent_aux_a20f5b7	Agent auxiliary	accuracy	0.010666666666666713	-0.064	0.08400000000000002	0.03796894892645	0.778	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	agent_aux_a20f5b7	Agent auxiliary	macro_f1	0.048087052414037545	-0.03008434367915587	0.13932380057166788	0.043574068003286094	0.2776	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	agent_aux_a20f5b7	Agent auxiliary	brier	0.012174792115402733	-0.05034545198944453	0.07387963438586842	0.03133774295557296	0.6904	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	agent_aux_a20f5b7	Agent auxiliary	precision_yes	0.03140079535735951	-0.03483254577644233	0.09691410550862527	0.03364353653099131	0.3486	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	agent_aux_a20f5b7	Agent auxiliary	recall_yes	-0.05783132530120483	-0.15844393411466598	0.04269662921348316	0.050986229510373175	0.2564	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	agent_aux_a20f5b7	Agent auxiliary	f1_yes	-0.00399595625307092	-0.07954502162315145	0.06658415100072039	0.03725918467057819	0.9004	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	agent_aux_a20f5b7	Agent auxiliary	precision_no	-0.008446267799315677	-0.1123748338903215	0.09641515853782122	0.05325140184716992	0.8818	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	agent_aux_a20f5b7	Agent auxiliary	recall_no	0.10980392156862745	-0.025011363636363648	0.2486519446275543	0.06962232809197597	0.1192	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	agent_aux_a20f5b7	Agent auxiliary	f1_no	0.05966062226711316	-0.05040671061748537	0.16686048923650618	0.05553545445182125	0.2744	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	agent_aux_a20f5b7	Agent auxiliary	precision_maybe	0.3083333333333333	-0.06666666666666667	1.0	0.31259929706642525	0.7338	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	agent_aux_a20f5b7	Agent auxiliary	recall_maybe	0.05	-0.03529411764705882	0.2	0.06454664299853577	0.7366	150	10000
+pubmedqa	val	tfidf_lr_selected	TF-IDF LR	agent_aux_a20f5b7	Agent auxiliary	f1_maybe	0.08859649122807017	-0.04210526315789474	0.3026360708534618	0.09817681188030603	0.734	150	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	accuracy	-0.08666666666666667	-0.1866666666666667	0.01333333333333342	0.05213329835539925	0.1132	150	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	macro_f1	0.15776478811222508	0.07487266957739029	0.23754605168191892	0.04183310515563269	0.0	150	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	brier	-0.010333293514371955	-0.18793476452681676	0.1696440345906639	0.09135459486240206	0.9106	150	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	precision_yes	0.023589743589743528	-0.053157894736842126	0.10083333333333333	0.039008058511019586	0.5564	150	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	recall_yes	-0.45783132530120485	-0.5647058823529412	-0.3521010679461385	0.054371678969724134	0.0	150	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	f1_yes	-0.15344014075120638	-0.24473794490791415	-0.06671854626882517	0.045070528217603295	0.0002	150	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	precision_no	0.5	0.34780390417036383	0.6511627906976745	0.07805672899891201	0.0	150	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	recall_no	0.42	0.2807017543859649	0.56	0.0704633865924638	0.0	150	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	f1_no	0.4565217391304348	0.3209629629629629	0.5765852390852391	0.06531750852724637	0.0	150	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	precision_maybe	0.13333333333333333	0.030303030303030304	0.2647058823529412	0.062356708197542035	0.0328	150	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	recall_maybe	0.23529411764705882	0.05555555555555555	0.46153846153846156	0.10543059556934506	0.0328	150	10000
+pubmedqa	test	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	f1_maybe	0.1702127659574468	0.041666666666666664	0.3137254901960785	0.07339024659592683	0.0328	150	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	accuracy	-0.013333333333333308	-0.11333333333333329	0.08666666666666656	0.04991490704984413	0.8326	150	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	macro_f1	0.13769779633100862	0.07711925167817102	0.19531622104918456	0.030014024660464444	0.0	150	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	brier	-0.22810342815303297	-0.3880091295954187	-0.06820229848715731	0.08169022539672727	0.0038	150	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	precision_yes	0.07457364341085271	0.006236559139784936	0.14666666666666672	0.03594189900701767	0.033	150	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	recall_yes	-0.3493975903614458	-0.452054794520548	-0.25	0.05189251811713608	0.0	150	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	f1_yes	-0.07339309749346068	-0.15556382680694258	0.004697505197504964	0.04063701511622703	0.0658	150	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	precision_no	0.4426229508196721	0.31666666666666665	0.5671641791044776	0.06382922327278961	0.0	150	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	recall_no	0.54	0.40314516129032263	0.6792641509433959	0.07142160888005658	0.0	150	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	f1_no	0.48648648648648646	0.3651778656126482	0.5961538461538461	0.05888775738058325	0.0	150	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	precision_maybe	0.0	0.0	0.0	0.0	1.0	150	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	recall_maybe	0.0	0.0	0.0	0.0	1.0	150	10000
+pubmedqa	test	tfidf_lr_selected	TF-IDF LR	majority_train	Majority	f1_maybe	0.0	0.0	0.0	0.0	1.0	150	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	majority_train	Majority	accuracy	0.05014749262536872	-0.0324483775811209	0.1327433628318584	0.041938489222718985	0.2422	339	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	majority_train	Majority	macro_f1	0.23353191169974713	0.17874071741829325	0.2876508692803559	0.027662321798760162	0.0	339	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	majority_train	Majority	brier	-0.5383333682542903	-0.6531554016753514	-0.4219238825688397	0.05917690895639491	0.0	339	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	majority_train	Majority	precision_support	-0.015412979351032474	-0.08717220635031242	0.05618908211566158	0.03643632159305306	0.661	339	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	majority_train	Majority	recall_support	-0.6594202898550725	-0.7385681884694176	-0.578125	0.0409241206834453	0.0	339	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	majority_train	Majority	f1_support	-0.21427526692994014	-0.29379787569748217	-0.13716404325221887	0.040246398800187266	0.0	339	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	majority_train	Majority	precision_contradict	0.20689655172413793	0.125	0.29545454545454547	0.04403728761831926	0.0	339	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	majority_train	Majority	recall_contradict	0.2535211267605634	0.15382352941176475	0.359375	0.052113246051533314	0.0	339	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	majority_train	Majority	f1_contradict	0.2278481012658228	0.14102564102564102	0.31578947368421056	0.0447436520049201	0.0	339	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	majority_train	Majority	precision_not_enough_info	0.6818181818181818	0.6	0.7603363985566289	0.04093556237928519	0.0	339	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	majority_train	Majority	recall_not_enough_info	0.6923076923076923	0.6106870229007634	0.7692446043165466	0.04067258057981037	0.0	339	10000
+scifact	dev	tfidf_scifact_selected	TF-IDF LR	majority_train	Majority	f1_not_enough_info	0.6870229007633587	0.6190476190476191	0.7490047531880202	0.03312698493878766	0.0	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	tfidf_scifact_selected	TF-IDF LR	accuracy	0.029498525073746285	-0.02359882005899705	0.08259587020648967	0.026859890836905095	0.3026	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	tfidf_scifact_selected	TF-IDF LR	macro_f1	0.011698936574862595	-0.041351461463406465	0.06501666808319467	0.027415030342651966	0.6654	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	tfidf_scifact_selected	TF-IDF LR	brier	0.204441458516057	0.13039982002091274	0.27895217044231385	0.037790241782188295	0.0	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	tfidf_scifact_selected	TF-IDF LR	precision_support	0.054487179487179516	-0.016143098299056975	0.12712118998282057	0.036663873763623255	0.135	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	tfidf_scifact_selected	TF-IDF LR	recall_support	0.0797101449275362	0.0	0.16176470588235298	0.04230424069880371	0.0708	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	tfidf_scifact_selected	TF-IDF LR	f1_support	0.06849473562420455	-0.0035280727277990746	0.14232397431648322	0.03701916294678728	0.0662	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	tfidf_scifact_selected	TF-IDF LR	precision_contradict	-0.06403940886699508	-0.15551364717074445	0.022994639376218293	0.045548520121304975	0.1614	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	tfidf_scifact_selected	TF-IDF LR	recall_contradict	-0.09859154929577466	-0.2195328648201736	0.015151515151515166	0.06042610252186596	0.1238	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	tfidf_scifact_selected	TF-IDF LR	f1_contradict	-0.07919945261717415	-0.18035592847833778	0.018548810601608824	0.05094533268753097	0.1228	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	tfidf_scifact_selected	TF-IDF LR	precision_not_enough_info	0.045454545454545525	-0.02455172485448496	0.11587630161817424	0.03587554790441102	0.2056	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	tfidf_scifact_selected	TF-IDF LR	recall_not_enough_info	0.04615384615384621	-0.03738844775490127	0.13178294573643412	0.04309448190449675	0.3246	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	tfidf_scifact_selected	TF-IDF LR	f1_not_enough_info	0.04580152671755733	-0.017673385544710263	0.108972469438633	0.03232268238483327	0.1528	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	accuracy	0.079646017699115	0.0029498525073746173	0.15634218289085544	0.039881655053176965	0.0482	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	macro_f1	0.24523084827460973	0.1963841496871877	0.2938821294290944	0.024968132825009287	0.0	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	brier	-0.33389190973823335	-0.47701183695340277	-0.18752363012429812	0.07440371082701273	0.0	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	precision_support	0.03907420013614704	-0.02907759644485311	0.10726935421694823	0.03445218199191776	0.2566	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	recall_support	-0.5797101449275363	-0.6623397303333609	-0.4963503649635036	0.04248103364869402	0.0	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	f1_support	-0.1457805313057356	-0.22119969044544427	-0.0714238383150311	0.03836506655207586	0.0002	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	precision_contradict	0.14285714285714285	0.06944444444444445	0.22535211267605634	0.03988620778313869	0.0	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	recall_contradict	0.15492957746478872	0.07575757575757576	0.24285714285714285	0.043440829461968825	0.0	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	f1_contradict	0.14864864864864866	0.07352941176470588	0.22695035460992907	0.039731817987132066	0.0	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	precision_not_enough_info	0.7272727272727273	0.6511627906976745	0.8015873015873016	0.03866856831043924	0.0	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	recall_not_enough_info	0.7384615384615385	0.6611570247933884	0.8125	0.03882733988741974	0.0	339	10000
+scifact	dev	frozen_biomedbert	Frozen BiomedBERT	majority_train	Majority	f1_not_enough_info	0.732824427480916	0.6694915254237288	0.7902126099706746	0.0307500394124472	0.0	339	10000

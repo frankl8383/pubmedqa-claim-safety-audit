@@ -1,0 +1,9 @@
+.DS_Store
+__MACOSX/
+.venv/
+.uv-cache/
+*.log
+*.npz
+*.pyc
+__pycache__/
+*.egg-info/
